@@ -1,0 +1,282 @@
+[
+    {
+    "Name": "David de Gea",
+    "Position": "Goalkeeper",
+    "SquadNumber": "1",
+    "Nationality": "Spain",
+    "DateOfBirth": "07/11/1990",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p51940.png"
+    },
+    {
+    "Name": "Tom Heaton",
+    "Position": "Goalkeeper",
+    "SquadNumber": "22",
+    "Nationality": "England",
+    "DateOfBirth": "15/04/1986",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p21205.png"
+    },
+    {
+    "Name": "Radek Vítek",
+    "Position": "Goalkeeper",
+    "SquadNumber": "50",
+    "Nationality": "Czech",
+    "DateOfBirth": "24/10/2003",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/Photo-Missing.png"
+    },
+    {
+    "Name": "Nathan Bishop",
+    "Position": "Goalkeeper",
+    "SquadNumber": "30",
+    "Nationality": "England",
+    "DateOfBirth": "15/10/1999",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p250370.png"
+    },
+    {
+    "Name": "Jack Butland",
+    "Position": "Goalkeeper",
+    "SquadNumber": "31",
+    "Nationality": "England",
+    "DateOfBirth": "10/03/1993",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p105666.png"
+    },
+    {
+    "Name": "Victor Lindelöf",
+    "Position": "Defender",
+    "SquadNumber": "2",
+    "Nationality": "Sweden",
+    "DateOfBirth": "17/07/1994",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p184667.png"
+    },
+    {
+    "Name": "Phil Jones",
+    "Position": "Defender",
+    "SquadNumber": "4",
+    "Nationality": "England",
+    "DateOfBirth": "21/02/1992",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p76359.png"
+    },
+    {
+    "Name": "Harry Maguire",
+    "Position": "Defender",
+    "SquadNumber": "5",
+    "Nationality": "England",
+    "DateOfBirth": "05/03/1993",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p95658.png"
+    },
+    {
+    "Name": "Raphaël Varane",
+    "Position": "Defender",
+    "SquadNumber": "19",
+    "Nationality": "France",
+    "DateOfBirth": "25/04/1993",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p90152.png"
+    },
+    {
+    "Name": "Diogo Dalot",
+    "Position": "Defender",
+    "SquadNumber": "20",
+    "Nationality": "Portugal",
+    "DateOfBirth": "18/03/1999",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p216051.png"
+    },
+    {
+    "Name": "Luke Shaw",
+    "Position": "Defender",
+    "SquadNumber": "23",
+    "Nationality": "England",
+    "DateOfBirth": "12/07/1995",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p106760.png"
+    },
+    {
+    "Name": "Aaron Wan-Bissaka",
+    "Position": "Defender",
+    "SquadNumber": "29",
+    "Nationality": "England",
+    "DateOfBirth": "26/11/1997",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p214590.png"
+    },
+    {
+    "Name": "Tyrell Malacia",
+    "Position": "Defender",
+    "SquadNumber": "12",
+    "Nationality": "Netherlands",
+    "DateOfBirth": "17/08/1999",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p222690.png"
+    },
+    {
+    "Name": "Lisandro Martínez",
+    "Position": "Defender",
+    "SquadNumber": "6",
+    "Nationality": "Argentina",
+    "DateOfBirth": "18/01/1998",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p221820.png"
+    },
+    {
+    "Name": "Marc Jurado",
+    "Position": "Defender",
+    "SquadNumber": "63",
+    "Nationality": "Spain",
+    "DateOfBirth": "13/04/2004",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/Photo-Missing.png"
+    },
+    {
+    "Name": "Rhys Bennett",
+    "Position": "Defender",
+    "SquadNumber": "66",
+    "Nationality": "England",
+    "DateOfBirth": "30/10/2003",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/Photo-Missing.png"
+    },
+    {
+    "Name": "Brandon Williams",
+        "Position": "Defender",
+    "SquadNumber": "33",
+    "Nationality": "England",
+    "DateOfBirth": "03/09/2000",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p232937.png"
+    },
+    {
+    "Name": "Fred",
+    "Position": "Midfielder",
+    "SquadNumber": "17",
+    "Nationality": "Brazil",
+    "DateOfBirth": "05/03/1993",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p101582.png"
+    },
+    {
+    "Name": "Bruno Fernandes",
+    "Position": "Midfielder",
+    "SquadNumber": "8",
+    "Nationality": "Portugal",
+    "DateOfBirth": "08/09/1994",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p141746.png"
+    },
+    {
+    "Name": "Scott McTominay",
+    "Position": "Midfielder",
+    "SquadNumber": "39",
+    "Nationality": "Scotland",
+    "DateOfBirth": "08/12/1996",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p195851.png"
+    },
+    {
+    "Name": "Facundo Pellistri",
+    "Position": "Midfielder",
+    "SquadNumber": "28",
+    "Nationality": "Uruguay",
+    "DateOfBirth": "20/12/2001",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p488404.png"
+    },
+    {
+    "Name": "Donny van de Beek",
+    "Position": "Midfielder",
+    "SquadNumber": "34",
+    "Nationality": "Netherlands",
+    "DateOfBirth": "18/04/1997",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p180184.png"
+    },
+    {
+    "Name": "Christian Eriksen",
+    "Position": "Midfielder",
+    "SquadNumber": "14",
+    "Nationality": "Denmark",
+    "DateOfBirth": "14/02/1992",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p80607.png"
+    },
+    {
+    "Name": "Casemiro",
+    "Position": "Midfielder",
+    "SquadNumber": "18",
+    "Nationality": "Brazil",
+    "DateOfBirth": "23/02/1992",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p61256.png"
+    },
+    {
+    "Name": "Zidane Iqbal",
+    "Position": "Midfielder",
+    "SquadNumber": "55",
+    "Nationality": "Iraq",
+    "DateOfBirth": "27/04/2003",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/Photo-Missing.png"
+    },
+    {
+    "Name": "Kobbie Mainoo",
+    "Position": "Midfielder",
+    "SquadNumber": "73",
+    "Nationality": "England",
+    "DateOfBirth": "19/04/2005",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/Photo-Missing.png"
+    },
+    {
+    "Name": "Marcel Sabitzer",
+    "Position": "Midfielder",
+    "SquadNumber": "15",
+    "Nationality": "Austria",
+    "DateOfBirth": "17/03/1994",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p101338.png"
+    },
+    {
+    "Name": "Alejandro Garnacho",
+    "Position": "Forward",
+    "SquadNumber": "49",
+    "Nationality": "Argentina",
+    "DateOfBirth": "01/07/2004",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p493105.png"
+    },
+    {
+    "Name": "Marcus Rashford",
+    "Position": "Forward",
+    "SquadNumber": "10",
+    "Nationality": "England",
+    "DateOfBirth": "31/10/1997",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p176297.png"
+    },
+    {
+    "Name": "Jadon Sancho",
+    "Position": "Forward",
+    "SquadNumber": "25",
+    "Nationality": "England",
+    "DateOfBirth": "25/03/2000",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p209243.png"
+    },
+    {
+    "Name": "Anthony Elanga",
+    "Position": "Forward",
+    "SquadNumber": "36",
+    "Nationality": "Sweden", 
+    "DateOfBirth": "27/04/2002",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p148225.png"
+    },
+    {
+    "Name": "Anthony Martial",
+    "Position": "Forward",
+    "SquadNumber": "9",
+    "Nationality": "France",
+    "DateOfBirth": "05/12/1995",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p467169.png"
+    },
+    {
+    "Name": "Antony",
+    "Position": "Forward",
+    "SquadNumber": "21",
+    "Nationality": "Brazil",
+    "DateOfBirth": "24/02/2000",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p467169.png"
+    },
+    {
+    "Name": "Wout Weghorst",
+    "Position": "Forward",
+    "SquadNumber": "27",
+    "Nationality": "Netherlands",
+    "DateOfBirth": "07/08/1992",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p120202.png"
+    },
+    {
+    "Name": "Amad Diallo",
+    "Position": "Forward",
+    "SquadNumber": "16",
+    "Nationality": "Cote D’Ivoire",
+    "DateOfBirth": "11/07/2002",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/110x140/p493250.png"
+    }
+]
