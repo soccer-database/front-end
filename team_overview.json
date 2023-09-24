@@ -1,0 +1,77 @@
+[
+
+    {   
+        "id" : 1,
+        "fullName" : "Arsenal Football Club",
+        "nickname" : "The Gunners",
+        "shortName" : "Arsenal",
+        "founded" : "1886-12-01",
+        "ground" : "Emirates Stadium",
+        "capacity" : 60260,
+        "owner" : "Kroenke Sports & Entertainment",
+        "manager" : "Mikel Arteta",
+        "league" : "Premier League"
+    },
+    {
+        "id" : 2,
+        "fullName" : "Chelsea Football Club",
+        "nickname" : "The Blues",
+        "shortName" : "Chelsea",
+        "founded" : "1905-03-10",
+        "ground" : "Stamford Bridge",
+        "capacity" : 40343,        
+        "owner" : "Blues Partners Limited",
+        "manager" : "Mauricio Pochettino",
+        "league" : "Premier League"
+    },
+    {
+        "id" : 3,
+        "fullName" : "Liverpool Football Club",
+        "nickname" : "The Reds",
+        "shortName" : "Liverpool",
+        "founded" : "1892-03-15",
+        "ground" : "Anfield",
+        "capacity" : 53394,        
+        "owner" : "Fenway Sports Group",
+        "manager" : "Jürgen Klopp",
+        "league" : "Premier League"        
+    },
+    {
+        "id" : 4,
+        "fullName" : "Manchester City Football Club",
+        "nickname" : "The Citizens",
+        "shortName" : "Man City",
+        "founded" : "1880-11-23",
+        "ground" : "Etihad Stadium",
+        "capacity" : 53400,        
+        "owner" : "City Football Group Limited",
+        "manager" : "Pep Guardiola",
+        "league" : "Premier League"        
+    },
+    {
+        "id" : 5,
+        "fullName" : "Manchester United Football Club",
+        "nickname" : "The Red Devils",
+        "shortName" : "Man United",
+        "founded" : "1878-03-05",
+        "ground" : "Old Trafford",
+        "capacity" : 74879,        
+        "owner" : "Manchester United plc",
+        "manager" : "Erik ten Hag",
+        "league" : "Premier League"        
+    },
+    {
+        "id" : 6,
+        "fullName" : "Tottenham Hotspur Football Club",
+        "nickname" : "The Lilywhites",
+        "shortName" : "Spurs",
+        "founded" : "1882-09-05",
+        "ground" : "Tottenham Hotspur Stadium",
+        "capacity" : 62850,        
+        "owner" : "ENIC International Ltd.",
+        "manager" : "Ange Postecoglou",
+        "league" : "Premier League"        
+    }
+
+
+]
