@@ -486,14 +486,14 @@
                 function drawRankingsChart(options) {
                     function getFinalRankings() {
                         return [
-                            ['Year', 'Final Rank'],
+                            {propertyName: 'Year', value: 'FinalRank'}],
                             ['18-19', 3],
                             ['19-20', 4],
                             ['20-21', 4],
                             ['21-22', 3],
                             ['22-23', 12]
                             // Add rankings for other years
-                        ];
+                        ;
                     }
             
                     var rankingsData = getFinalRankings();

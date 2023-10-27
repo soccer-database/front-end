@@ -15,7 +15,14 @@ export const leagues = [
                 },
                 owner: "Kroenke Sports & Entertainment",
                 manager: "Mikel Arteta",
-                players: []
+                players: [],
+                rankHistories: [
+                    {fromYear: 2018, toYear: 2019, finalRank: 5},
+                    {fromYear: 2019, toYear: 2020, finalRank: 8},
+                    {fromYear: 2020, toYear: 2021, finalRank: 8},
+                    {fromYear: 2021, toYear: 2022, finalRank: 5},
+                    {fromYear: 2022, toYear: 2023, finalRank: 2}
+                ]
             },
             {
                 fullName: "Chelsea Football Club",
@@ -30,7 +37,14 @@ export const leagues = [
                 },
                 owner: "Blues Partners Limited",
                 manager: "Mauricio Pochettino",
-                players: []
+                players: [],
+                rankHistories: [
+                    {fromYear: 2018, toYear: 2019, finalRank: 3},
+                    {fromYear: 2019, toYear: 2020, finalRank: 4},
+                    {fromYear: 2020, toYear: 2021, finalRank: 4},
+                    {fromYear: 2021, toYear: 2022, finalRank: 3},
+                    {fromYear: 2022, toYear: 2023, finalRank: 12}                    
+                ]
             },
             {
                 fullName: "Liverpool Football Club",
@@ -45,7 +59,14 @@ export const leagues = [
                 },
                 owner: "Fenway Sports Group",
                 manager: "Jürgen Klopp",
-                players: []
+                players: [],
+                rankHistories: [
+                    {fromYear: 2018, toYear: 2019, finalRank: 2},
+                    {fromYear: 2019, toYear: 2020, finalRank: 1},
+                    {fromYear: 2020, toYear: 2021, finalRank: 3},
+                    {fromYear: 2021, toYear: 2022, finalRank: 2},
+                    {fromYear: 2022, toYear: 2023, finalRank: 5}
+                ]
             },
             {
                 fullName: "Manchester City Football Club",
@@ -60,7 +81,14 @@ export const leagues = [
                 },
                 owner: "City Football Group Limited",
                 manager: "Pep Guardiola",
-                players: []
+                players: [],
+                rankHistories: [
+                    {fromYear: 2018, toYear: 2019, finalRank: 1},
+                    {fromYear: 2019, toYear: 2020, finalRank: 2},
+                    {fromYear: 2020, toYear: 2021, finalRank: 1},
+                    {fromYear: 2021, toYear: 2022, finalRank: 1},
+                    {fromYear: 2022, toYear: 2023, finalRank: 1}
+                ]
             },
             {
                 fullName: "Manchester United Football Club",
@@ -75,7 +103,14 @@ export const leagues = [
                 },
                 owner: "Manchester United plc",
                 manager: "Erik ten Hag",
-                players: []
+                players: [],
+                rankHistories: [
+                    {fromYear: 2018, toYear: 2019, finalRank: 6},
+                    {fromYear: 2019, toYear: 2020, finalRank: 3},
+                    {fromYear: 2020, toYear: 2021, finalRank: 2},
+                    {fromYear: 2021, toYear: 2022, finalRank: 6},
+                    {fromYear: 2022, toYear: 2023, finalRank: 3}
+                ]
             },
             {
                 fullName: "Tottenham Hotspur Football Club",
@@ -90,7 +125,14 @@ export const leagues = [
                 },
                 owner: "ENIC International Ltd.",
                 manager: "Ange Postecoglou",
-                players: []
+                players: [],
+                rankHistories: [
+                    {fromYear: 2018, toYear: 2019, finalRank: 4},
+                    {fromYear: 2019, toYear: 2020, finalRank: 6},
+                    {fromYear: 2020, toYear: 2021, finalRank: 7},
+                    {fromYear: 2021, toYear: 2022, finalRank: 4},
+                    {fromYear: 2022, toYear: 2023, finalRank: 8}
+                ]
             }
         ]
     }
