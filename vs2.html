@@ -1,0 +1,245 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Stats</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .stat-chart {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        .stat-label {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 0.75rem;
+        }
+
+        .bg-white {
+            background-color: #ffffff;
+            /* Set your desired background color */
+        }
+
+        .rounded-lg {
+            border-radius: 0.375rem;
+            /* Set your desired border-radius */
+        }
+
+        .shadow-md {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            /* Set your desired box-shadow */
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .space-x-4 {
+            margin-right: 1rem;
+            /* Set your desired margin-right */
+        }
+
+        .p-4 {
+            padding: 1rem;
+            /* Set your desired padding */
+        }
+
+        .rounded-full {
+            border-radius: 9999px;
+            /* Set your desired border-radius */
+        }
+
+        .text-lg {
+            font-size: 1.125rem;
+            /* Set your desired font-size */
+        }
+
+        .font-semibold {
+            font-weight: 600;
+            /* Set your desired font-weight */
+        }
+
+        .text-gray-700 {
+            color: #4b5563;
+            /* Set your desired text color */
+        }
+
+        #versus {
+            margin-left: auto;
+        }
+
+        #player-img {
+            width: 100px;
+            /* Set your desired width */
+            height: 100px;
+            /* Set your desired height */
+        }
+
+        .border-r {
+            border-right: 1px solid #e5e7eb;
+            /* Set your desired border color */
+        }
+
+        .border-gray-300 {
+            border-color: #d1d5db;
+            /* Set your desired border color */
+        }
+
+        .px-4 {
+            padding-left: 1rem;
+            /* Set your desired padding-left */
+            padding-right: 1rem;
+            /* Set your desired padding-right */
+        }
+
+        .py-2 {
+            padding-top: 0.5rem;
+            /* Set your desired padding-top */
+            padding-bottom: 0.5rem;
+            /* Set your desired padding-bottom */
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem;
+            /* Set your desired margin-bottom */
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+            /* Set your desired font-size */
+        }
+
+        .border-b {
+            border-bottom: 1px solid #e5e7eb;
+            /* Set your desired border color */
+        }
+
+        .grid {
+            display: grid;
+        }
+
+        .grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            /* Set your desired grid columns */
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .font-medium {
+            font-weight: 500;
+            /* Set your desired font-weight */
+        }
+
+        .space-y-2 {
+            margin-bottom: 0.5rem;
+            /* Set your desired margin-bottom */
+        }
+
+        .flex-1 {
+            flex: 1;
+        }
+
+        .px-8 {
+            padding-left: 2rem;
+            /* Set your desired padding-left */
+            padding-right: 2rem;
+            /* Set your desired padding-right */
+        }
+
+        .border-gray-300 {
+            border-color: #d1d5db;
+            /* Set your desired border color */
+        }
+
+        .w-18 {
+            width: 4.5rem;
+            /* Set your desired width */
+        }
+
+        .h-18 {
+            height: 4.5rem;
+            /* Set your desired height */
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 800px">
+        <div class="bg-gray-100">
+            <div class="">
+                <img src="https://placehold.co/64x64" alt="Placeholder image of Kieran Tierney" class="mr-4">
+                <div>
+                    <div class="uppercase text-sm">team1</div>
+                    <div class="font-semibold text-lg">Kieran Tierney</div>
+                    <div class="text-sm">Defender</div>
+                </div>
+            </div>
+            <div class="card-body">
+                <select>
+                    <option value=1>attack</option>
+                    <option value=2>pass</option>
+                    <option value=3>defence</option>
+                </select>
+                <div>Appearances</div>
+                <div>18</div>
+                <div>Goals</div>
+                <div>0</div>
+                <div>Assists</div>
+                <div>2</div>
+                <div>Clean sheets</div>
+                <div>0</div>
+                <div>Saves</div>
+                <div>0</div>
+                <div>Yellow cards</div>
+                <div>1</div>
+                <div>Red cards</div>
+                <div>0</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header blue">
+                <img src="https://placehold.co/64x64" alt="Placeholder image for team logo" class="mr-4">
+                <div>
+                    <select>
+                        <option>chelsea</option>
+                        <option>liverpool</option>
+                    </select>
+                    <div class="text-sm">position</div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="font-semibold mb-2">attack <span class="icon-chevron-down"></span></div>
+                <div>Appearances</div>
+                <div>18</div>
+                <div>Goals</div>
+                <div>0</div>
+                <div>Assists</div>
+                <div>2</div>
+                <div>Clean sheets</div>
+                <div>0</div>
+                <div>Saves</div>
+                <div>0</div>
+                <div>Yellow cards</div>
+                <div>1</div>
+                <div>Red cards</div>
+                <div>0</div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button>return</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        .label {
+            float: left;
+            clear: both;
+            width: 50%;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .data {
+            float: left;
+            clear: both;
+            width: 50%;
+            box-sizing: border-box;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="resume-section" id="Info">
+        <div class="resume-section-content">
+            <h1 class="mb-0">ArsenalFC</h1>
+            <h3>"The Gunners"</h3>
+            <div>
+                <div class="label">name:</div>
+                <div class="data" id="name"></div>
+            </div>
+            <div>
+                <div class="label">founded:</div>
+                <div class="data" id="founded"></div>
+            </div>
+            <div>
+                <div class="label">owner:</div>
+                <div class="data" id="owner"></div>
+            </div>
+            <div>
+                <div class="label">stadium:</div>
+                <div class="data" id="stadium-name"></div>
+            </div>
+            <div>
+                <div class="label">latitude:</div>
+                <div class="data" id="latitude"></div>
+            </div>
+            <div>
+                <div class="label">longitude:</div>
+                <div class="data" id="longitude"></div>
+            </div>
+            <div>
+                <div class="label">capacity:</div>
+                <div class="data" id="capacity"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- JSON 데이터를 가져오고 처리하는 스크립트 -->
+    <script>
+        // JSON 데이터를 가져올 URL
+        //const jsonUrl = "team.json";
+        fetch(`https://stable-redbird-sunny.ngrok-free.app/squads/Arsenal`
+            ,
+            {
+                headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                },
+            })
+            .then((data) => data.json)
+        // 현재 페이지의 URL에서 id 값을 가져오기
+        // console
+        // fetch(jsonUrl)
+        //     .then(response => response.json()).then(data => console.log(data))
+        // JSON 데이터 가져오기
+        // fetch(jsonUrl)
+        //     .then(response => response.json())
+        //     .then(data => 
+
+        fetch(`https://stable-redbird-sunny.ngrok-free.app/squads/Arsenal`, {
+            headers: {
+                "Content-Type": "application/json",
+                "ngrok-skip-browser-warning": "69420",
+            },
+        })
+            .then(response => response.json())
+            .then((team) => {
+                // 팀의 정보를 가져와서 표시
+
+                console.log(team);
+                if (team) {
+                    document.querySelector("#name").textContent = team.name;
+                    document.querySelector("#founded").textContent = team.founded;
+                    document.querySelector("#owner").textContent = team.owner;
+                    document.querySelector("#stadium-name").textContent = team.stadium.name;
+                    document.querySelector("#latitude").textContent = team.stadium.latitude;
+                    document.querySelector("#longitude").textContent = team.stadium.longitude;
+                    document.querySelector("#capacity").textContent = team.stadium.capacity;
+                    // 나머지 팀 정보도 필요에 따라 표시
+                    // ...
+                } else {
+                    document.querySelector(".Fullname").textContent = "Team Not Found";
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching JSON:", error);
+            });
+    </script>
+    <!-- <script>
+        // 페이지가 로드될 때 실행되는 스크립트
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // 모달이 열릴 때 콘솔에 playerDivId 값 출력
+            console.log("Player ID from playerDetail.html:", playerDivId);
+        });
+        document.querySelector("#versus").addEventListener("click", () => {
+            $.ajax({
+                url: "vs1.html",
+                dataType: "html",
+                success: function (data) {
+                    // 클릭된 플레이어의 ID를 playerDetail.html에 전달
+                    $(".modal-content p").html(data);
+                }
+
+            })
+        })
+            ;
+    </script> -->
+</body>
+
+</html>

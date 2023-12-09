@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Profile</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        .stat-chart {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        .stat-label {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 0.75rem;
+        }
+
+        .bg-white {
+            background-color: #ffffff;
+            /* Set your desired background color */
+        }
+
+        .rounded-lg {
+            border-radius: 0.375rem;
+            /* Set your desired border-radius */
+        }
+
+        .shadow-md {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            /* Set your desired box-shadow */
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .space-x-4 {
+            margin-right: 1rem;
+            /* Set your desired margin-right */
+        }
+
+        .p-4 {
+            padding: 1rem;
+            /* Set your desired padding */
+        }
+
+        .rounded-full {
+            border-radius: 9999px;
+            /* Set your desired border-radius */
+        }
+
+        .text-lg {
+            font-size: 1.125rem;
+            /* Set your desired font-size */
+        }
+
+        .font-semibold {
+            font-weight: 600;
+            /* Set your desired font-weight */
+        }
+
+        .text-gray-700 {
+            color: #4b5563;
+            /* Set your desired text color */
+        }
+
+        #versus {
+            margin-left: auto;
+        }
+
+        #player-img {
+            width: 100px;
+            /* Set your desired width */
+            height: 100px;
+            /* Set your desired height */
+        }
+
+        .border-r {
+            border-right: 1px solid #e5e7eb;
+            /* Set your desired border color */
+        }
+
+        .border-gray-300 {
+            border-color: #d1d5db;
+            /* Set your desired border color */
+        }
+
+        .px-4 {
+            padding-left: 1rem;
+            /* Set your desired padding-left */
+            padding-right: 1rem;
+            /* Set your desired padding-right */
+        }
+
+        .py-2 {
+            padding-top: 0.5rem;
+            /* Set your desired padding-top */
+            padding-bottom: 0.5rem;
+            /* Set your desired padding-bottom */
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem;
+            /* Set your desired margin-bottom */
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+            /* Set your desired font-size */
+        }
+
+        .border-b {
+            border-bottom: 1px solid #e5e7eb;
+            /* Set your desired border color */
+        }
+
+        .grid {
+            display: grid;
+        }
+
+        .grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            /* Set your desired grid columns */
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .font-medium {
+            font-weight: 500;
+            /* Set your desired font-weight */
+        }
+
+        .space-y-2 {
+            margin-bottom: 0.5rem;
+            /* Set your desired margin-bottom */
+        }
+
+        .flex-1 {
+            flex: 1;
+        }
+
+        .px-8 {
+            padding-left: 2rem;
+            /* Set your desired padding-left */
+            padding-right: 2rem;
+            /* Set your desired padding-right */
+        }
+
+        .border-gray-300 {
+            border-color: #d1d5db;
+            /* Set your desired border color */
+        }
+
+        .w-18 {
+            width: 4.5rem;
+            /* Set your desired width */
+        }
+
+        .h-18 {
+            height: 4.5rem;
+            /* Set your desired height */
+        }
+
+        body.modal-open {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <div class="bg-white p-6 mx-auto rounded-lg shadow-md overflow-hidden" style="width: 800px">
+        <div class="flex items-center space-x-4 p-4 rounded-t-lg team-bg">
+            <img class="w-22 h-22 rounded-full" src="https://placehold.co/100x100" id="player-img"
+                style="width:100px;height: 100px;" />
+            <h1 class="text-lg font-semibold text-gray-700" style="font-size: 40px; color: white;" id="player-name-get">
+                player
+            </h1>
+
+            <div id="versus" style="margin-left: auto">
+                <img src="https://placehold.co/40x40">
+            </div>
+        </div>
+        <div class="flex mt-4">
+            <div class="flex-1 border-r border-gray-300">
+                <div class="px-4 py-2">
+
+                    <div class="border-b border-gray-300 mb-4">
+                        <div class="grid grid-cols-3 gap-4 mb-4">
+                            <div class="text-sm text-center">
+                                <div class="font-medium text-gray-700">Nationality</div>
+                                <div id="Nationality-get">get</div>
+                            </div>
+                            <div class="text-sm text-center">
+                                <div class="font-medium text-gray-700">Position</div>
+                                <div id="Position-get">get</div>
+                            </div>
+                            <div class="text-sm text-center">
+                                <div class="font-medium text-gray-700">DateOfBirth</div>
+                                <div id="DateOfBirth-get">get</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">Goals</div>
+                            <div class="text-sm" id="Goals-get">get</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">Assists</div>
+                            <div class="text-sm" id="Assists-get">get</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">Touches</div>
+                            <div class="text-sm" id="Touches-get">get</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">Interceptions per game</div>
+                            <div class="text-sm" id="Intercept-get">get</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">Tackles per game</div>
+                            <div class="text-sm" id="Tackles-get">get</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="px-8 py-2">
+                    <div class="space-y-2">
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat1
+                            </div>
+                            <div class="text-sm">1</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat2
+                            </div>
+                            <div class="text-sm">2</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat3
+                            </div>
+                            <div class="text-sm">3</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat4
+                            </div>
+                            <div class="text-sm">4</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat5
+                            </div>
+                            <div class="text-sm">5</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat6
+                            </div>
+                            <div class="text-sm">6</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat7
+                            </div>
+                            <div class="text-sm">7</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat8
+                            </div>
+                            <div class="text-sm">8</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat9
+                            </div>
+                            <div class="text-sm">9</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="text-sm font-medium text-gray-700">
+                                detail stat10
+                            </div>
+                            <div class="text-sm">10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JSON 데이터를 가져오고 처리하는 스크립트 -->
+    <script>
+        // JSON 데이터를 가져올 URL
+        const jsonUrl = "ArsenalPlayer.json";
+
+        // 현재 페이지의 URL에서 id 값을 가져오기
+        console
+        fetch(jsonUrl)
+            .then(response => response.json()).then(data => console.log(data))
+        // JSON 데이터 가져오기
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => {
+                console.log("asdasd")
+                // 플레이어의 정보를 가져와서 표시
+                const player = data.find(player => player.id == playerDivId);
+                console.log(player)
+                if (player) {
+                    document.querySelector("#player-name-get").textContent = player.Name;
+                    document.querySelectorAll(".team-bg").forEach(el => {
+                        const squadName = player.squad.name
+                        const col = squadName === "Arsenal" ? "#F00000" :
+                            squadName === "chelsea" ? "#001489" :
+                                squadName === "liverpool" ? "#DC0714" :
+                                    squadName === "Manchester City" ? "#98C5E9" :
+                                        squadName === "manunited" ? "#C70101" :
+                                            squadName === "tottenham" ? "#111836" : "#242424"
+                        el.style.backgroundColor = col
+                    })
+                    document.querySelector("#player-img").src = player.img;
+                    // 나머지 플레이어 정보도 필요에 따라 표시
+                    document.querySelector("#Nationality-get").textContent = player.Nationality;
+                    document.querySelector("#Position-get").textContent = player.Position;
+                    document.querySelector("#DateOfBirth-get").textContent = player.DateOfBirth;
+                    // ... (나머지 정보에 대한 표시 코드 추가)
+                } else {
+                    document.querySelector(".player-name").textContent = "Player Not Found";
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching JSON:", error);
+            });
+    </script>
+    <script>
+        // 페이지가 로드될 때 실행되는 스크립트
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // 모달이 열릴 때 콘솔에 playerDivId 값 출력
+            console.log("Player ID from playerDetail.html:", playerDivId);
+        });
+        document.querySelector("#versus").addEventListener("click", () => {
+            $.ajax({
+                url: "vs3.html",
+                dataType: "html",
+                success: function (data) {
+                    // 클릭된 플레이어의 ID를 playerDetail.html에 전달
+                    $(".modal-content p").html(data);
+                }
+
+            })
+        })
+            ;
+    </script>
+</body>
+
+
+</html>
