@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Arsenal FC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
         type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -16,6 +17,14 @@
             box-sizing: border-box !important;
             text-align: left !important;
         }
+        .team-label {
+            float: left !important;
+            clear: both !important;
+            width: 50% !important;
+            box-sizing: border-box !important;
+            text-align: left !important;
+            font-size: 18px;
+        }
 
         .data {
             float: left !important;
@@ -24,13 +33,54 @@
             box-sizing: border-box !important;
             text-align: right !important;
         }
+        .team-data {
+            float: left !important;
+            clear: both !important;
+            width: 50% !important;
+            box-sizing: border-box !important;
+            text-align: right !important;
+            font-size: 18px;
+        }
 
         .div-between {
             display: flex !important;
             justify-content: space-between !important;
-            padding-left: 45px !important;
-            padding-right: 45px !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
         }
+        .stat-chart {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+      }
+
+      .stat-label {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        font-size: 0.75rem;
+      }
+      .select {
+            background-color: transparent;
+            outline: 0 none;
+        }
+
+        .select option {
+            background-color: transparent;
+            background: #4b5563;
+            color: white;
+            outline: 0 none;
+        }
+        
+        .div-center {
+          max-width: 300px;
+        }
+        .div-center img {
+            display: block;
+            margin: 0 auto; /* 가로 방향 가운데 정렬을 위해 margin을 auto로 설정 */
+        }
+
     </style>
 
 </head>
@@ -82,35 +132,35 @@
 
         <section class="resume-section" id="Info">
             <div class="resume-section-content" style="width:max-content">
-                <h1 class="mb-0">ArsenalFC</h1>
-                <h3>"The Gunners"</h3>
+                <h1 class="font-bold" style="font-size: 50px;">Arsenal <span class="text-arsenal">FC</span></h1>
+                <h3 class="font-bold" style="font-size: 30px;">"The Gunners"</h3>
                 <div class="div-between">
-                    <div class="label">name:</div>
-                    <div class="data" id="name"></div>
+                    <div class="team-label">name:</div>
+                    <div class="team-data" id="name"></div>
                 </div>
                 <div class="div-between">
-                    <div class="label">founded:</div>
-                    <div class="data" id="founded"></div>
+                    <div class="team-label">founded:</div>
+                    <div class="team-data" id="founded"></div>
                 </div>
                 <div class="div-between">
-                    <div class="label">owner:</div>
-                    <div class="data" id="owner"></div>
+                    <div class="team-label">owner:</div>
+                    <div class="team-data" id="owner"></div>
                 </div>
                 <div class="div-between">
-                    <div class="label">stadium:</div>
-                    <div class="data" id="stadium-name"></div>
+                    <div class="team-label">stadium:</div>
+                    <div class="team-data" id="stadium-name"></div>
                 </div>
                 <div class="div-between">
-                    <div class="label">latitude:</div>
-                    <div class="data" id="latitude"></div>
+                    <div class="team-label">latitude:</div>
+                    <div class="team-data" id="latitude"></div>
                 </div>
                 <div class="div-between">
-                    <div class="label">longitude:</div>
-                    <div class="data" id="longitude"></div>
+                    <div class="team-label">longitude:</div>
+                    <div class="team-data" id="longitude"></div>
                 </div>
                 <div class="div-between">
-                    <div class="label">capacity:</div>
-                    <div class="data" id="capacity"></div>
+                    <div class="team-label">capacity:</div>
+                    <div class="team-data" id="capacity"></div>
                 </div>
 
             </div>
@@ -172,7 +222,7 @@
                                 var playerId = count;
 
                                 var cell = $("<td/>").attr("id", playerId).append(
-                                    $("<div/>").append(
+                                    $("<div/>").addClass("div-center").append(
                                         $("<img/>").addClass("player-img").attr("src", player.img).attr("width", "100").attr("height", "100"),
                                         $("<div/>").addClass("div-between").append(
                                             $("<span/>").addClass("label").text("Name "),
@@ -215,8 +265,9 @@
                         success: function (data) {
                             // 클릭된 플레이어의 ID를 playerDetail.html에 전달
                             $(".modal-content p").html(data);
+                            
                         }
-
+                        //html 열면서 style 불러와지는데 이거 삭제 안하고 숨기기만 해서 css 덮어졌다 이거 일단 reload로 임시방편
                     });
 
                     // 모달 열기
@@ -236,11 +287,17 @@
                     });
 
                     // 모달을 닫는 함수
-                    function closeModal() {
-                        modal.style.display = "none";
-                        document.body.style.overflow = "auto"; // 스크롤바 보이기
-                        location.reload();
-                    }
+                    // 모달을 닫는 함수
+                      function closeModal() {
+                          modal.style.display = "none";
+                          document.body.style.overflow = "auto"; // 스크롤바 보이기
+
+                        // 모든 <style> 요소를 선택
+
+                         
+                      }
+
+                 
                 }
 
             });
@@ -256,7 +313,7 @@
 
 
         <div id="modal" , class="player-id-">
-            <div class="modal-content rounded-lg" style="width:fit-content;">
+            <div class="modal-content rounded-lg" style="width:fit-content; height: fit-content;">
                 <h2></h2>
                 <p></p>
                 <button id="close-modal">close</button>
