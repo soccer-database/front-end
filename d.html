@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Arsenal FC</title>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+        #modal {
+            position: fixed;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+            display: none;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script>
+        let playerDivId = null;
+        $(function () {
+            $.ajax({
+                url: "ArsenalPlayer.json",
+                dataType: "json",
+                success: function (data) {
+                    if (data.length > 0) {
+                        var table = $("<table/>");
+                        var count = 0; // 현재 행에 추가된 데이터 수를 추적
+
+                        for (var i in data) {
+                            var player = data[i];
+
+                            // 한 행에 4개의 데이터가 들어가도록 조건문 추가
+                            if (count % 4 === 0) {
+                                var row = $("<tr/>");
+                            }
+
+                            // 각 div 요소에 고유한 id 부여
+                            var playerId = count;
+
+                            var cell = $("<td/>").attr("id", playerId).append(
+                                $("<div/>").append(
+                                    $("<img/>").addClass("player-img").attr("src", player.img).attr("width", "100").attr("height", "100"),
+                                    $("<div/>").addClass("div-between").append(
+                                        $("<span/>").addClass("label").text("Name "),
+                                        $("<span/>").addClass("player-data").text(player.Name)
+                                    )
+                                )
+                            );
+
+                            row.append(cell);
+
+                            // 클릭 이벤트 리스너를 추가하여 해당 "player-id-"를 클릭할 때 모달 열기
+                            cell.on("click", function () {
+                                playerDivId = $(this).attr("id");
+                                openModal();
+                            });
+
+                            table.append(row);
+
+                            count++;
+                        }
+
+                        $(".player-info .wrap").append(table);
+                    }
+                }
+            });
+
+            // 모달을 열기 위한 함수
+
+            function openModal() {
+                const modal = document.getElementById("modal");
+                const closeModalBtn = document.getElementById("close-modal");
+                console.log("Player ID sent to playerDetail.html:", playerDivId);
+                // 클릭된 요소의 id 전송
+                $(".modal-content p").append("<br>Clicked Player ID: " + playerDivId);
+                //$(".modal-content h2").text("" + playerDivId);
+                // playerDetail.html을 모달에 로드 (Ajax 사용)
+                $.ajax({
+                    url: "playerDetail.html",
+                    dataType: "html",
+                    success: function (data) {
+                        // 클릭된 플레이어의 ID를 playerDetail.html에 전달
+                        $(".modal-content p").html(data);
+                    }
+
+                });
+
+                // 모달 열기
+                modal.style.display = "block";
+                document.body.style.overflow = "hidden"; // 스크롤바 제거
+
+                // 모달 닫기
+                closeModalBtn.addEventListener("click", () => {
+                    closeModal();
+                });
+
+                // 모달 바깥을 클릭하면 모달 닫기
+                window.addEventListener("click", function (event) {
+                    if (event.target == modal) {
+                        closeModal();
+                    }
+                });
+
+                // 모달을 닫는 함수
+                function closeModal() {
+                    modal.style.display = "none";
+                    document.body.style.overflow = "auto"; // 스크롤바 보이기
+                }
+            }
+
+        });
+    </script>
+
+    <section class="resume-section" id="Player">
+        <h2>Players</h2>
+        <div class="player-info">
+            {players.map(player=><PlayerCard player="player">)}
+                <div class="wrap"></div>
+        </div>
+    </section>
+
+
+    <div id="modal" , class="player-id-">
+        <div class="modal-content rounded-lg" style="width:fit-content;">
+            <h2></h2>
+            <p></p>
+            <button id="close-modal">close</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

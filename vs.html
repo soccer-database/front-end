@@ -1,0 +1,242 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Stats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .select {
+            background-color: transparent;
+            outline: 0 none;
+        }
+
+        .select option {
+            background-color: transparent;
+            background: #4b5563;
+            color: white;
+            outline: 0 none;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+
+    <div class="bg-white p-6 mx-auto rounded-lg shadow-md overflow-hidden" style="width: 800px">
+
+        <div>
+            <!-- Players Cards -->
+
+            <div class="flex flex-wrap -mx-2">
+
+                <!-- Player 1 -->
+                <!-- "w-1/2 p-2" -->
+                <div class="w-1/2 p-1">
+                    <div class="rounded-t-lg p-4 text-white team-bg">
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/64x64" alt="Alisson Ramsés Becker in goalkeeper kit"
+                                class="rounded-full h-16 w-16" id="player-img">
+                            <div class="ml-4">
+                                <div class="font-bold">team1</div>
+                                <div class="font-bold" id="player-name-get">player</div>
+                                <div id="Position-get">position</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-b-lg p-4">
+                        <div class="text-gray-800 font-bold text-xl mb-2">
+                            <select>
+                                <option value=1>attack</option>
+                                <option value=2>pass</option>
+                                <option value=3>defence</option>
+                            </select>
+                        </div>
+                        <div class="text-gray-600">
+
+                            <div class="flex justify-between py-1">
+                                <div>Appearances</div>
+                                <div>18</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Goals</div>
+                                <div>0</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Assists</div>
+                                <div>2</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Clean sheets</div>
+                                <div>0</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Saves</div>
+                                <div>0</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Yellow cards</div>
+                                <div>1</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Red cards</div>
+                                <div>0</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Player 2 -->
+                <div class="w-1/2 p-1">
+                    <div class="rounded-t-lg p-4 text-white" id="vs-team-bg">
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/64x64" alt="Mykhailo Mudryk in midfielder kit"
+                                class="rounded-full h-16 w-16">
+                            <div class="ml-4">
+
+                                <div>
+                                    <select name="team" class="select font-bold" id="vs-team"
+                                        style="background-color: transparent; height: 24px;">
+                                        <option value="arsenal" data-color="#F00000">arsenal</option>
+                                        <option value="chelsea" data-color="#001489">chelsea</option>
+                                        <option value="liverpool" data-color="#DC0714">liverpool</option>
+                                        <option value="mancity" data-color="#98C5E9">mancity</option>
+                                        <option value="manunited" data-color="#C70101">manunited</option>
+                                        <option value="tottenham" data-color="#111836">tottenham</option>
+                                    </select>
+                                </div>
+                                <select class="select font-bold" id="vs-player"
+                                    style="background-color: transparent">player2</select>
+                                <div id="vs-Position-get" style="padding-left: 5px;">position</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-b-lg p-4">
+                        <div class="text-gray-800 font-bold text-xl mb-2">
+                            <select>
+                                <option value=1>attack</option>
+                                <option value=2>pass</option>
+                                <option value=3>defence</option>
+                            </select>
+                        </div>
+                        <div class="text-gray-600">
+
+                            <div class="flex justify-between py-1">
+                                <div>Appearances</div>
+                                <div>18</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Goals</div>
+                                <div>0</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Assists</div>
+                                <div>2</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Clean sheets</div>
+                                <div>0</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Saves</div>
+                                <div>0</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Yellow cards</div>
+                                <div>1</div>
+                            </div>
+                            <div class="flex justify-between py-1">
+                                <div>Red cards</div>
+                                <div>0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div style="">
+        <div class="flex justify-center items-center">
+            <button id="go-back">return</button>
+        </div>
+    </div>
+</body>
+
+<script>
+    $(function () {
+        // 기존 코드 유지...
+        const jsonUrl = "ArsenalPlayer.json";
+
+        // 현재 페이지의 URL에서 id 값을 가져오기
+        console
+        fetch(jsonUrl)
+            .then(response => response.json()).then(data => console.log(data))
+        // JSON 데이터 가져오기
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => {
+                console.log("asdasd")
+                // 플레이어의 정보를 가져와서 표시
+                const player = data.find(player => player.id == playerDivId);
+                if (player) {
+                    document.querySelector("#player-name-get").textContent = player.Name;
+                    document.querySelectorAll(".team-bg").forEach(el => {
+                        const squadName = player.squad.name
+                        const col = squadName === "Arsenal" ? "#F00000" :
+                            squadName === "chelsea" ? "#001489" :
+                                squadName === "liverpool" ? "#DC0714" :
+                                    squadName === "Manchester City" ? "#98C5E9" :
+                                        squadName === "manunited" ? "#C70101" :
+                                            squadName === "tottenham" ? "#111836" : "#242424"
+                        el.style.backgroundColor = col
+                    })
+                    document.querySelector("#player-name-get").textContent = player.Name;
+                    document.querySelectorAll(".team-bg").forEach(el => el.style.backgroundColor = player.squad.color)
+                    document.querySelector("#player-img").src = player.img;
+                    // 나머지 플레이어 정보도 필요에 따라 표시
+                    // document.querySelector("#Nationality-get").textContent = player.Nationality;
+                    document.querySelector("#Position-get").textContent = player.Position;
+                    //document.querySelector("#DateOfBirth-get").textContent = player.DateOfBirth;
+                    // ... (나머지 정보에 대한 표시 코드 추가)
+                } else {
+                    document.querySelector(".player-name").textContent = "Player Not Found";
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching JSON:", error);
+            });
+        // 뒤로가기 링크 클릭 이벤트 리스너
+        document.querySelector("#go-back").addEventListener("click", () => {
+            $.ajax({
+                url: "playerDetail.html",
+                dataType: "html",
+                success: function (data) {
+                    // 클릭된 플레이어의 ID를 playerDetail.html에 전달
+                    $(".modal-content p").html(data);
+                }
+
+            })
+        })
+    });
+</script>
+
+<script type="text/javascript">
+    function changeBackgroundPlayer2() {
+        $("#vs-player").empty();
+        var selectedTeamColor = $("#vs-team option:selected").data("color");
+        $("#vs-team-bg").css("background-color", selectedTeamColor);
+
+        var options =
+            $("#vs-team option").filter(function (e) {
+                return $(this).attr("value") > $("#vs-team option:selected").val();
+            }).clone();
+        ///(`players?squadName=${$(this).attr("value")}`
+        $("#vs-player").append(options);
+    }
+    changeBackgroundPlayer2();
+    $(function () {
+        $("#vs-team").change((e) => changeBackgroundPlayer2(e));
+    });
+</script>
+
+</html>
