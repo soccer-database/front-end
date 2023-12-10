@@ -1,34 +1,3 @@
-<!-- <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Player Profile</title> -->
-
-<!-- <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    /> -->
-<!-- <style>
-      .stat-chart {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        margin: 0 auto;
-      }
-
-      .stat-label {
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        font-size: 0.75rem;
-      }
-    </style> -->
-<!-- </head> -->
-
 <body class="bg-gray-100">
   <div
     class="bg-white p-6 mx-auto rounded-lg shadow-md overflow-hidden"
@@ -50,18 +19,15 @@
       </h1>
 
       <div id="versus" style="margin-left: auto">
-        <img src="https://placehold.co/40x40" />
+        <img
+          style="width: 50px; height: 50px"
+          src="https://static.thenounproject.com/png/71604-200.png"
+        />
       </div>
     </div>
     <div class="flex mt-4">
       <div class="flex-1 border-r border-gray-300">
         <div class="px-4 py-2">
-          <div class="flex items-center mb-2">
-            <img class="w-18 h-18" src="https://placehold.co/50x50" />
-            <span class="ml-2 text-lg font-semibold text-gray-700"
-              >team logo</span
-            >
-          </div>
           <div class="border-b border-gray-300 mb-4">
             <div class="grid grid-cols-3 gap-4 mb-4">
               <div class="text-sm text-center">
@@ -78,77 +44,29 @@
               </div>
             </div>
           </div>
-          <div class="space-y-2">
+          <div class="space-y-2 common-stat-box">
             <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">Goals</div>
-              <div class="text-sm" id="Goals-get">get</div>
+              <div class="text-sm font-medium text-gray-700">s90</div>
+              <div class="text-sm" id="s90-get">get</div>
             </div>
             <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">Assists</div>
-              <div class="text-sm" id="Assists-get">get</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">Touches</div>
-              <div class="text-sm" id="Touches-get">get</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">
-                Interceptions per game
-              </div>
-              <div class="text-sm" id="Intercept-get">get</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">
-                Tackles per game
-              </div>
-              <div class="text-sm" id="Tackles-get">get</div>
+              <div class="text-sm font-medium text-gray-700">ranks</div>
+              <div class="text-sm" id="ranks-get">get</div>
             </div>
           </div>
         </div>
       </div>
       <div class="flex-1">
         <div class="px-8 py-2">
-          <div class="space-y-2">
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat1</div>
-              <div class="text-sm">1</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat2</div>
-              <div class="text-sm">2</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat3</div>
-              <div class="text-sm">3</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat4</div>
-              <div class="text-sm">4</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat5</div>
-              <div class="text-sm">5</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat6</div>
-              <div class="text-sm">6</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat7</div>
-              <div class="text-sm">7</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat8</div>
-              <div class="text-sm">8</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat9</div>
-              <div class="text-sm">9</div>
-            </div>
-            <div class="flex justify-between">
-              <div class="text-sm font-medium text-gray-700">detail stat10</div>
-              <div class="text-sm">10</div>
-            </div>
+          <div class="space-y-2 stat-box-of-type">
+            <select onchange="()=>{console.log('this')}" id="select-stat">
+              <option value="standard">standard</option>
+              <option value="pass">pass</option>
+              <option value="depend">depend</option>
+              <option value="shoot">shoot</option>
+              <option value="GK">goalkeeping</option>
+            </select>
+            <div id="stat-list"></div>
           </div>
         </div>
       </div>
@@ -157,48 +75,58 @@
   <!-- JSON 데이터를 가져오고 처리하는 스크립트 -->
   <script>
     // JSON 데이터를 가져올 URL
-    const jsonUrl = "ArsenalPlayer.json";
+    //const jsonUrl = "ArsenalPlayer.json";
 
     // 현재 페이지의 URL에서 id 값을 가져오기
-    console;
-    fetch(jsonUrl)
+    fetch(
+      `https://stable-redbird-sunny.ngrok-free.app/players/${playerDivId}`,
+      {
+        headers: {
+          "Content-Type": "application/json",
+          "ngrok-skip-browser-warning": "69420",
+        },
+      }
+    )
       .then((response) => response.json())
-      .then((data) => console.log(data));
-    // JSON 데이터 가져오기
-    fetch(jsonUrl)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("asdasd");
+      .then((player) => {
+        //console.log(data);
+        //});
+        //JSON 데이터 가져오기
+        // //fetch(jsonUrl)
+        //   .then((response) => response.json())
+        //   .then((data) => {
         // 플레이어의 정보를 가져와서 표시
-        const player = data.find((player) => player.id == playerDivId);
+        //const player = data.find((player) => player.id == playerDivId);
         console.log(player);
         if (player) {
-          document.querySelector("#player-name-get").textContent = player.Name;
+          document.querySelector("#player-name-get").textContent = player.name;
           document.querySelectorAll(".team-bg").forEach((el) => {
             const squadName = player.squad.name;
             const col =
               squadName === "Arsenal"
                 ? "#F00000"
-                : squadName === "chelsea"
+                : squadName === "Chelsea"
                 ? "#001489"
-                : squadName === "liverpool"
+                : squadName === "Liverpool"
                 ? "#DC0714"
                 : squadName === "Manchester City"
                 ? "#98C5E9"
-                : squadName === "manunited"
+                : squadName === "Manchester Utd"
                 ? "#C70101"
                 : squadName === "tottenham"
                 ? "#111836"
                 : "#242424";
             el.style.backgroundColor = col;
           });
-          document.querySelector("#player-img").src = player.img;
+          document.querySelector("#player-img").src = player.profileUrl;
           // 나머지 플레이어 정보도 필요에 따라 표시
           document.querySelector("#Nationality-get").textContent =
-            player.Nationality;
-          document.querySelector("#Position-get").textContent = player.Position;
+            player.nation;
+          document.querySelector("#Position-get").textContent =
+            player.positions[0];
           document.querySelector("#DateOfBirth-get").textContent =
-            player.DateOfBirth;
+            player.birthYear;
+
           // ... (나머지 정보에 대한 표시 코드 추가)
         } else {
           document.querySelector(".player-name").textContent =
@@ -225,6 +153,51 @@
           $(".modal-content p").html(data);
         },
       });
+    });
+    let statType = "standard";
+    const excludes = ["s90", "ranks", "id"];
+    function changestat() {
+      fetch(
+        `https://stable-redbird-sunny.ngrok-free.app/players/${playerDivId}/records?type=${
+          statType ? statType : "standard"
+        }`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "ngrok-skip-browser-warning": "69420",
+          },
+        }
+      )
+        .then((data) => data.json())
+        .then((records) => {
+          //document.querySelector(".stat-box-of-type");
+          $("#stat-list").empty();
+          for (let columnName in records) {
+            if (excludes.includes(columnName)) {
+              continue;
+            }
+            const row = `<div class="flex justify-between">
+                        <div class="text-sm font-medium text-gray-700">
+                          ${columnName.replace(/([a-z])([A-Z])/g, "$1 $2")}
+                        </div>
+                        <div class="text-sm">${records[columnName]}</div>
+                </div>`;
+            $("#stat-list").append(row);
+            document.querySelector("#s90-get").textContent = records.s90;
+            document.querySelector("#ranks-get").textContent = records.ranks;
+          }
+        });
+    }
+    changestat();
+
+    $("#select-stat").on("change", function () {
+      //selected value
+      $(this).val();
+      $("option:selected", this).attr("value");
+      statType = $(this).val();
+      // console.log($(this).val());
+      console.log(statType);
+      changestat();
     });
   </script>
 </body>

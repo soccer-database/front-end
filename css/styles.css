@@ -11470,6 +11470,9 @@ body.modal-open {
 }
 
 .modal-content {
+  position: fixed;
+  top: -18%;
+  left: 30%;
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;

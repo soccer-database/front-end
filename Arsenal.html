@@ -134,7 +134,7 @@
             <div class="resume-section-content" style="width:max-content">
                 <h1 class="font-bold" style="font-size: 50px;">Arsenal <span class="text-arsenal">FC</span></h1>
                 <h3 class="font-bold" style="font-size: 30px;">"The Gunners"</h3>
-                <div class="div-between">
+                <div class="div-between" style="width: 600px;">
                     <div class="team-label">name:</div>
                     <div class="team-data" id="name"></div>
                 </div>
@@ -165,7 +165,7 @@
 
             </div>
         </section>
-        <!-- <script>
+        <script>
             fetch(`https://stable-redbird-sunny.ngrok-free.app/squads/Arsenal`, {
                 headers: {
                     "Content-Type": "application/json",
@@ -194,7 +194,7 @@
                 .catch(error => {
                     console.error("Error fetching JSON:", error);
                 });
-        </script> -->
+        </script>
         <hr class="m-0" />
 
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -202,31 +202,32 @@
         <script>
             let playerDivId = null;
             $(function () {
-                $.ajax({
-                    url: "ArsenalPlayer.json",
-                    dataType: "json",
-                    success: function (data) {
+                fetch(`https://stable-redbird-sunny.ngrok-free.app/players?squadName=${"Arsenal"}`,
+                 {
+                    headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                    },
+                    }).then((data)=>data.json()).then((data)=>{
+                                
                         if (data.length > 0) {
-                            var table = $("<table/>");
-                            var count = 0; // 현재 행에 추가된 데이터 수를 추적
-
+                            const table = $("<table/>");
+                            let count = 0; // 현재 행에 추가된 데이터 수를 추적
+                            
                             for (var i in data) {
-                                var player = data[i];
-
+                                const player = data[i];
+                                console.log(player)
                                 // 한 행에 4개의 데이터가 들어가도록 조건문 추가
                                 if (count % 4 === 0) {
-                                    var row = $("<tr/>");
+                                    row = $("<tr/>");
                                 }
 
-                                // 각 div 요소에 고유한 id 부여
-                                var playerId = count;
-
-                                var cell = $("<td/>").attr("id", playerId).append(
+                                const cell = $("<td/>").attr("id", player.id).append(
                                     $("<div/>").addClass("div-center").append(
-                                        $("<img/>").addClass("player-img").attr("src", player.img).attr("width", "100").attr("height", "100"),
+                                        $("<img/>").addClass("player-img").attr("src", player.profileUrl).attr("width", "100").attr("height", "100"),
                                         $("<div/>").addClass("div-between").append(
                                             $("<span/>").addClass("label").text("Name "),
-                                            $("<span/>").addClass("player-data").text(player.Name)
+                                            $("<span/>").addClass("player-data").text(player.name)
                                         )
                                     )
                                 );
@@ -240,14 +241,13 @@
                                 });
 
                                 table.append(row);
-
-                                count++;
+                                count+=1;
                             }
-
+                            
                             $(".player-info .wrap").append(table);
-                        }
-                    }
-                });
+                        };
+                    })
+                   
 
                 // 모달을 열기 위한 함수
 
@@ -304,9 +304,9 @@
         </script>
 
         <section class="resume-section" id="Player">
-            <h2>Players</h2>
+            <h2 style="font-size: 50px;" class="font-bold">Players</h2>
             <div class="player-info">
-                {players.map(player=><PlayerCard player="player">)}
+                <PlayerCard player="player">
                     <div class="wrap"></div>
             </div>
         </section>

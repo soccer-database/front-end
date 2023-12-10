@@ -1,25 +1,3 @@
-<!-- <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player Stats</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        .select {
-            background-color: transparent;
-            outline: 0 none;
-        }
-
-        .select option {
-            background-color: transparent;
-            background: #4b5563;
-            color: white;
-            outline: 0 none;
-        }
-    </style>
-</head> -->
 
 <body class="bg-gray-100">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -37,10 +15,10 @@
                 <div class="w-1/2 p-1">
                     <div class="rounded-t-lg p-4 text-white team-bg">
                         <div class="flex items-center">
-                            <img src="https://placehold.co/64x64" alt="Alisson Ramsés Becker in goalkeeper kit"
+                            <img src="https://placehold.co/64x64" 
                                 class="rounded-full h-16 w-16" id="player-img">
                             <div class="ml-4">
-                                <div class="font-bold" style="font-size: 20px;">team1</div>
+                                <div class="font-bold" style="font-size: 20px;" id="player-team">team1</div>
                                 <div class="font-bold" id="player-name-get" style="font-size: 20px;">player</div>
                                 <div id="Position-get" style="font-size: 18px;">position</div>
                             </div>
@@ -48,43 +26,17 @@
                     </div>
                     <div class="bg-white rounded-b-lg p-4">
                         <div class="text-gray-800 font-bold text-xl mb-2">
-                            <select>
-                                <option value=1>attack</option>
-                                <option value=2>pass</option>
-                                <option value=3>defence</option>
-                            </select>
-                        </div>
-                        <div class="text-gray-600">
-
-                            <div class="flex justify-between py-1">
-                                <div>Appearances</div>
-                                <div>18</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Goals</div>
-                                <div>0</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Assists</div>
-                                <div>2</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Clean sheets</div>
-                                <div>0</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Saves</div>
-                                <div>0</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Yellow cards</div>
-                                <div>1</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Red cards</div>
-                                <div>0</div>
-                            </div>
-                        </div>
+                            <div class="space-y-2 stat-box-of-type">
+                                <select onchange="()=>{console.log('this')}" id="select-stat">
+                                  <option value="standard">standard</option>
+                                  <option value="pass">pass</option>
+                                  <option value="depend">depend</option>
+                                  <option value="shoot">shoot</option>
+                                  <option value="GK">goalkeeping</option>
+                                </select>
+                                <div id="stat-list"></div>
+                              </div>
+                        </div>          
 
                     </div>
                 </div>
@@ -92,66 +44,41 @@
                 <div class="w-1/2 p-1">
                     <div class="rounded-t-lg p-4 text-white" id="vs-team-bg">
                         <div class="flex items-center">
-                            <img src="https://placehold.co/64x64" alt="Mykhailo Mudryk in midfielder kit"
-                                class="rounded-full h-16 w-16">
+                            <img src="https://placehold.co/64x64" 
+                                class="rounded-full h-16 w-16" id="vs-player-img">
                             <div class="ml-4">
 
                                 <div>
                                     <select name="team" class="select font-bold" id="vs-team"
                                         style="background-color: transparent; height: 24px; font-size: 20px; margin-bottom: 4px;">
-                                        <option value="arsenal" data-color="#F00000">arsenal</option>
-                                        <option value="chelsea" data-color="#001489">chelsea</option>
-                                        <option value="liverpool" data-color="#DC0714">liverpool</option>
-                                        <option value="mancity" data-color="#98C5E9">mancity</option>
-                                        <option value="manunited" data-color="#C70101">manunited</option>
-                                        <option value="tottenham" data-color="#111836">tottenham</option>
+                                        <option value="Arsenal" data-color="#F00000">Arsenal</option>
+                                        <option value="Chelsea" data-color="#001489">Chelsea</option>
+                                        <option value="Liverpool" data-color="#DC0714">Liverpool</option>
+                                        <option value="Manchester City" data-color="#98C5E9">Manchester City</option>
+                                        <option value="Manchester Utd" data-color="#C70101">Manchester Utd</option>
+                                        <option value="Tottenham" data-color="#111836">Tottenham</option>
                                     </select>
                                 </div>
                                 <select class="select font-bold" id="vs-player"
                                     style="background-color: transparent; font-size: 20px; margin-top:4px">player2</select>
-                                <div id="vs-Position-get" style="padding-left: 5px; font-size: 18px; matgin-left: 5px; margin-top: 1px;">position</div>
+                                <div id="vs-Position-get" style="padding-left: 5px; font-size: 18px; margin-top: 1px;">position</div>
                             </div>
                         </div>
                     </div>
                     <div class="bg-white rounded-b-lg p-4">
                         <div class="text-gray-800 font-bold text-xl mb-2">
-                            <select>
-                                <option value=1>attack</option>
-                                <option value=2>pass</option>
-                                <option value=3>defence</option>
-                            </select>
+                            <div class="space-y-2 stat-box-of-type">
+                                <select onchange="()=>{console.log('this')}" id="vs-select-stat">
+                                  <option value="standard">standard</option>
+                                  <option value="pass">pass</option>
+                                  <option value="depend">depend</option>
+                                  <option value="shoot">shoot</option>
+                                  <option value="GK">goalkeeping</option>
+                                </select>
+                                <div id="vs-stat-list"></div>
+                              </div>
                         </div>
-                        <div class="text-gray-600">
-
-                            <div class="flex justify-between py-1">
-                                <div>Appearances</div>
-                                <div>18</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Goals</div>
-                                <div>0</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Assists</div>
-                                <div>2</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Clean sheets</div>
-                                <div>0</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Saves</div>
-                                <div>0</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Yellow cards</div>
-                                <div>1</div>
-                            </div>
-                            <div class="flex justify-between py-1">
-                                <div>Red cards</div>
-                                <div>0</div>
-                            </div>
-                        </div>
+          
                     </div>
                 </div>
             </div>
@@ -162,42 +89,37 @@
     </div>
 </body>
 
-<script>
+<script type="text/javascript">
+    
     $(function () {
         // 기존 코드 유지...
-        const jsonUrl = "ArsenalPlayer.json";
-
-        // 현재 페이지의 URL에서 id 값을 가져오기
-        console
-        fetch(jsonUrl)
-            .then(response => response.json()).then(data => console.log(data))
-        // JSON 데이터 가져오기
-        fetch(jsonUrl)
-            .then(response => response.json())
-            .then(data => {
-                console.log("asdasd")
-                // 플레이어의 정보를 가져와서 표시
-                const player = data.find(player => player.id == playerDivId);
+        fetch(
+                `https://stable-redbird-sunny.ngrok-free.app/players/${playerDivId}`,
+                {
+                    headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                    },
+                }
+                )
+                .then((response) => response.json())
+            .then((player) => {        
                 if (player) {
-                    document.querySelector("#player-name-get").textContent = player.Name;
+                    document.querySelector("#player-name-get").textContent = player.name;
                     document.querySelectorAll(".team-bg").forEach(el => {
                         const squadName = player.squad.name
                         const col = squadName === "Arsenal" ? "#F00000" :
-                            squadName === "chelsea" ? "#001489" :
-                                squadName === "liverpool" ? "#DC0714" :
+                            squadName === "Chelsea" ? "#001489" :
+                                squadName === "Liverpool" ? "#DC0714" :
                                     squadName === "Manchester City" ? "#98C5E9" :
-                                        squadName === "manunited" ? "#C70101" :
+                                        squadName === "Manchester Utd" ? "#C70101" :
                                             squadName === "tottenham" ? "#111836" : "#242424"
                         el.style.backgroundColor = col
                     })
-                    document.querySelector("#player-name-get").textContent = player.Name;
-                    document.querySelectorAll(".team-bg").forEach(el => el.style.backgroundColor = player.squad.color)
-                    document.querySelector("#player-img").src = player.img;
-                    // 나머지 플레이어 정보도 필요에 따라 표시
-                    // document.querySelector("#Nationality-get").textContent = player.Nationality;
-                    document.querySelector("#Position-get").textContent = player.Position;
-                    //document.querySelector("#DateOfBirth-get").textContent = player.DateOfBirth;
-                    // ... (나머지 정보에 대한 표시 코드 추가)
+                    document.querySelector("#player-img").src = player.profileUrl;
+                    document.querySelector("#Position-get").textContent = player.positions;
+                    document.querySelector("#player-team").textContent = player.squad.name;
+                    
                 } else {
                     document.querySelector(".player-name").textContent = "Player Not Found";
                 }
@@ -218,9 +140,183 @@
             })
         })
     });
-</script>
+    
+    let statType = "standard";
+    const excludes = ["s90", "ranks", "id"];
+    function changestat() {
+      fetch(
+        `https://stable-redbird-sunny.ngrok-free.app/players/${playerDivId}/records?type=${
+          statType ? statType : "standard"
+        }`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "ngrok-skip-browser-warning": "69420",
+          },
+        }
+      )
+        .then((data) => data.json())
+        .then((records) => {
+          //console.log(records);
+          $("#stat-list").empty();
+          for (let columnName in records) {
+            if (excludes.includes(columnName)) {
+              continue;
+            }
+            const row1 = `<div class="flex justify-between">
+                        <div class="text-sm font-medium text-gray-700">
+                          ${columnName.replace(/([a-z])([A-Z])/g, "$1 $2")}
+                        </div>
+                        <div class="text-sm">${records[columnName]}</div>
+                </div>`;
+            $("#stat-list").append(row1);            
+          }
+        });
+    }
+    changestat();
 
-<script type="text/javascript">
+    $("#select-stat").on("change", function () {
+      //selected value
+      $(this).val();
+      $("option:selected", this).attr("value");
+      statType = $(this).val();
+      //console.log(statType);
+      changestat();
+    });
+    
+    let vsTeam="Arsenal";
+    $("#vs-team").on("change", function () {
+      //selected value
+      $(this).val();
+      $("option:selected", this).attr("value");
+        vsTeam= $(this).val();
+      //console.log(vsTeam);
+      changestat(vsTeam);
+      vsPlayerselect();
+    });
+    vsPlayerselect();
+
+    let vsPlayerId;   
+    // let vsplayerImg
+    // let vsplayerTeam    
+    
+    function vsPlayerselect(){
+        //vsTeam 따라서 fetch를 다르게
+        fetch(`https://stable-redbird-sunny.ngrok-free.app/players?squadName=${vsTeam}`,
+                 {
+                    headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                    },
+                    }).then((data)=>data.json()).then((data)=>{
+                        //console.log(data);
+                        
+                        for (var i in data) {
+                                vsPlayer = data[i];
+                                //console.log(vsPlayer)
+                                let option = `<option value="${vsPlayer.id}">${vsPlayer.name}</option>`;
+                                $("#vs-player").append(option);                                
+                        }
+                        //console.log(data[0].id);
+                        vsPlayerId = data[0].id;    
+                        // vsplayerImg=data[0].profileUrl;
+                        // vsplayerTeam=data[0].team;
+                        // console.log(vsplayerImg);
+                        // console.log(vsplayerTeam);
+                        vschangestat();            
+                        vsPlayerinfo();
+                    }) 
+                    
+    }    
+
+    $("#vs-player").on("change", function () {
+      //selected value
+    //   $(this).val();
+    //   $("option:selected", this).attr("value");
+      vsPlayerId= $(this).val();
+      //console.log(vsPlayerId);
+      vschangestat();        
+      vsPlayerinfo();       
+    });
+    
+    function vsPlayerinfo(){        
+        fetch(
+                `https://stable-redbird-sunny.ngrok-free.app/players/${vsPlayerId}`,
+                {
+                    headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                    },
+                }
+                )
+                .then((response) => response.json())
+                .then((response) => {                       
+                console.log(response) 
+                    document.querySelector("#vs-Position-get").textContent = response.positions;
+                    document.querySelector("#vs-player-img").src = response.profileUrl;                
+            })
+            .catch(error => {
+                console.error("Error fetching JSON:", error);
+            });
+    }
+
+
+
+
+
+    let vsstatType = "standard";
+
+    $("#vs-select-stat").on("change", function () {
+      //selected value
+      $(this).val();
+      $("option:selected", this).attr("value");
+      vsstatType = $(this).val();
+      // console.log($(this).val());
+      //console.log(vsstatType);
+      vschangestat();
+    });
+
+    
+    function vschangestat() {
+        if (!vsPlayerId) {
+        console.error("vsPlayerId is not defined.");
+        return;
+    }
+        fetch(
+        `https://stable-redbird-sunny.ngrok-free.app/players/${vsPlayerId}/records?type=${
+          vsstatType ? vsstatType : "standard"
+        }`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "ngrok-skip-browser-warning": "69420",
+          },
+        }
+      )
+        .then((data) => data.json())
+        .then((records) => {
+          //console.log(records)          
+          $("#vs-stat-list").empty();
+          for (let columnName in records) {
+            if (excludes.includes(columnName)) {
+              continue;
+            }
+            const row2 = `<div class="flex justify-between">
+                        <div class="text-sm font-medium text-gray-700">
+                          ${columnName.replace(/([a-z])([A-Z])/g, "$1 $2")}
+                        </div>
+                        <div class="text-sm">${records[columnName]}</div>
+                </div>`;
+            $("#vs-stat-list").append(row2);            
+          }
+        });
+    }
+    vschangestat()
+
+    
+
+
+
     function changeBackgroundPlayer2() {
         $("#vs-player").empty();
         var selectedTeamColor = $("#vs-team option:selected").data("color");
@@ -231,12 +327,16 @@
                 return $(this).attr("value") > $("#vs-team option:selected").val();
             }).clone();
         ///(`players?squadName=${$(this).attr("value")}`
-        $("#vs-player").append(options);
+        //$("#vs-player").append(options);
     }
     changeBackgroundPlayer2();
     $(function () {
         $("#vs-team").change((e) => changeBackgroundPlayer2(e));
     });
+    
+
+
+    
 </script>
 
 <!-- </html> -->

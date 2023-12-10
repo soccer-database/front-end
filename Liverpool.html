@@ -1,596 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Liverpool FC</title>
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <link href="css/styles.css" rel="stylesheet" />
-        <style>
-            section {
-                overflow: auto;
-                height: auto; /*섹션의 높이를 자동 설정*/
-                padding-top: 60px; /* 섹션 내용 상단 여백 추가 */
-                padding-bottom: 20px; /* 섹션 내용 하단 여백 추가 */
-                display: flex; /* 섹션 내용을 수직 가운데 정렬하기 위해 Flexbox 사용 */
-                flex-direction: column; /* 내용을 수직 방향으로 정렬 */
-                justify-content: center; /* 내용을 수직 가운데 정렬 */
-                margin: auto; /* 수직 가운데 정렬 */
-                text-align: center; /* 내용을 가운데 정렬 */               
-                
-            }
 
-            .resume-section-content {                
-                height: 100vh;
-                margin: auto; /* 수직 가운데 정렬 */
-                text-align: center; /* 내용을 가운데 정렬 */
-                
-                display: flex; /* 섹션 내용을 수직 가운데 정렬하기 위해 Flexbox 사용 */
-                flex-direction: column; /* 내용을 수직 방향으로 정렬 */
-                justify-content: center; /* 내용을 수직 가운데 정렬 */
-            }                   
-            .news-item {
-                margin-bottom: 8px;
-                text-align: left;
-            }
-    
-            .news-title {
-                font-size: px;
-                font-weight: bold;
-                margin-bottom: 5px;
-            }
-    
-            .news-description {
-                font-size: 8px;
-            }
-            table {
-                width: 100%;
-                border-collapse: collapse;
-            }
+<head>
+    <meta charset="utf-8" />
+    <title>Liverpool FC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .label {
+            float: left !important;
+            clear: both !important;
+            width: 50% !important;
+            box-sizing: border-box !important;
+            text-align: left !important;
+        }
+        .team-label {
+            float: left !important;
+            clear: both !important;
+            width: 50% !important;
+            box-sizing: border-box !important;
+            text-align: left !important;
+            font-size: 18px;
+        }
 
-            th, td {
-                padding: 8px;
-                text-align: center;
-                border-bottom: 1px solid #ddd;
-            }
-            
-            th {
-                background-color: #f2f2f2;
-            }
-            
-            .player-img {
-                width: 100px;
-                height: 100px;
-            }
+        .data {
+            float: left !important;
+            clear: both !important;
+            width: 50% !important;
+            box-sizing: border-box !important;
+            text-align: right !important;
+        }
+        .team-data {
+            float: left !important;
+            clear: both !important;
+            width: 50% !important;
+            box-sizing: border-box !important;
+            text-align: right !important;
+            font-size: 18px;
+        }
 
-            .player-info {
-                align-items: center;
-                max-height: auto;
-                
-            }
-            
-            .player-table {
-                white-space: nowrap;
-                overflow-x: auto;
-            }
-            
-            .player-table th, .player-table td {
-                min-width: 120px;
-                padding: 8px;
-            }
-            
-            .player-img {
-                width: 200px;
-                height: auto;
-            }
-            .player-data {
-                font-weight: bold;
-                color: #336699;
-                text-align: right;
-            }
-            .white_content {
-                position: fixed;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                background: rgba(0, 0, 0, 0.8);
-                opacity:0;
-                -webkit-transition: opacity 400ms ease-in;
-                -moz-transition: opacity 400ms ease-in;
-                transition: opacity 400ms ease-in;
-                pointer-events: none;
-            }
-            .white_content:target {
-                opacity:1;
-                pointer-events: auto;
-            }
-            .white_content > div {
-                position: absolute;
-                top: 15%;
-                left: 17%;
-                width: 80%;
-                height: 70%;
-                padding: 16px;
-                border: 16px solid rgb(0, 204, 255);
-                background-color: white;
-                overflow: auto;	
-            }
-            .div-between {
-                display: flex;
-                justify-content : space-between;
-                padding-left: 45px;
-                padding-right: 45px;
-            }
-            a {
-                text-decoration: none;
-                color: inherit;
-                cursor: pointer;
-                color:darkred;
-            }
-        </style>  
+        .div-between {
+            display: flex !important;
+            justify-content: space-between !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+        .stat-chart {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+      }
+
+      .stat-label {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        font-size: 0.75rem;
+      }
+      .select {
+            background-color: transparent;
+            outline: 0 none;
+        }
+
+        .select option {
+            background-color: transparent;
+            background: #4b5563;
+            color: white;
+            outline: 0 none;
+        }
         
-    </head>
-    <body id="page-top">
-        <!-- Club-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="TopNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">BIG 6</a>
-                <button class="navbar-toggler" type="button"></span></button>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="Arsenal.html">Arsenal</a></li>
+        .div-center {
+          max-width: 300px;
+        }
+        .div-center img {
+            display: block;
+            margin: 0 auto; /* 가로 방향 가운데 정렬을 위해 margin을 auto로 설정 */
+        }
+
+    </style>
+
+</head>
+
+<body id="page-top">
+    <!-- Club-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="TopNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">BIG 6</a>
+            <button class="navbar-toggler" type="button"></span></button>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="Arsenal.html">Arsenal</a></li>
                         <li class="nav-item"><a class="nav-link" href="Chelsea.html">Chelsea</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="Liverpool.html">Liverpool</a></li>
                         <li class="nav-item"><a class="nav-link" href="Manchester City.html">Manchester City</a></li>
                         <li class="nav-item"><a class="nav-link" href="Manchester United.html">Manchester United</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Tottenham Hotspur.html">Tottenham Hotspur</a></li>                        
-                    </ul>
-                    <form class="d-flex">                        
-                    </form>
-                </div>
-            </div>
-        </nav>
-       
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-liverpool fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none"></span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-square mx-auto mb-2" src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Info">Info</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Player">Players</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#History">Issues</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Video">Video</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Location">Location</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Stats">Stats</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Tottenham Hotspur.html">Tottenham Hotspur</a></li>    
                 </ul>
+                <form class="d-flex">
+                </form>
             </div>
-        </nav>
-        
-        <div class="container-fluid">
-            
-            <section class="resume-section" id="Info">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Liverpool
-                        <span class="text-liverpool">FC</span>
-                    </h1>
-                    <h3>"The Reds"</h3>
-                    <p>
-                        Full name : Liverpool Football Club<br>
-                        Nickname(s) : The Reds<br>
-                        Founded : 3 June 1892; 131 years ago<br>
-                        Stadium : Anfield<br>
-                        Capacity : 53,394<br>
-                        Owner : Fenway Sports Group<br>
-                        Chairman : Tom Werner<br>
-                        Manager : Jürgen Klopp<br>
-                        League : Premier League<br>
-                    </p>
+        </div>
+    </nav>
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-liverpool fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none"></span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-square mx-auto mb-2" src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button"></span></button>
+        <div class="navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Info">Info</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Player">Players</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#History">Issues</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Video">Video</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Location">Location</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Stats">Stats</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <section class="resume-section" id="Info">
+            <div class="resume-section-content" style="width:max-content">
+                <h1 class="font-bold" style="font-size: 50px;">Liverpool <span class="text-liverpool">FC</span></h1>
+                <h3 class="font-bold" style="font-size: 30px;">"The Reds"</h3>
+                <div class="div-between" style="width: 600px;">
+                    <div class="team-label">name:</div>
+                    <div class="team-data" id="name"></div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            
-            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-            <script>
-                $(function(){
-                    $.ajax({
-                        url: "LiverpoolPlayer.json",
-                        dataType: "json",
-                        success: function(data){
-                            if(data.length > 0){
-                                var table = $("<table/>");
-                                var count = 0; // 현재 행에 추가된 데이터 수를 추적
+                <div class="div-between">
+                    <div class="team-label">founded:</div>
+                    <div class="team-data" id="founded"></div>
+                </div>
+                <div class="div-between">
+                    <div class="team-label">owner:</div>
+                    <div class="team-data" id="owner"></div>
+                </div>
+                <div class="div-between">
+                    <div class="team-label">stadium:</div>
+                    <div class="team-data" id="stadium-name"></div>
+                </div>
+                <div class="div-between">
+                    <div class="team-label">latitude:</div>
+                    <div class="team-data" id="latitude"></div>
+                </div>
+                <div class="div-between">
+                    <div class="team-label">longitude:</div>
+                    <div class="team-data" id="longitude"></div>
+                </div>
+                <div class="div-between">
+                    <div class="team-label">capacity:</div>
+                    <div class="team-data" id="capacity"></div>
+                </div>
+
+            </div>
+        </section>
+        <script>
+            fetch(`https://stable-redbird-sunny.ngrok-free.app/squads/Liverpool`, {
+                headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                },
+            })
+                .then(response => response.json())
+                .then((team) => {
+                    // 팀의 정보를 가져와서 표시
+
+                    console.log(team);
+                    if (team) {
+                        document.querySelector("#name").textContent = team.name;
+                        document.querySelector("#founded").textContent = team.founded;
+                        document.querySelector("#owner").textContent = team.owner;
+                        document.querySelector("#stadium-name").textContent = team.stadium.name;
+                        document.querySelector("#latitude").textContent = team.stadium.latitude;
+                        document.querySelector("#longitude").textContent = team.stadium.longitude;
+                        document.querySelector("#capacity").textContent = team.stadium.capacity;
+                        // 나머지 팀 정보도 필요에 따라 표시
+                        // ...
+                    } else {
+                        document.querySelector(".Fullname").textContent = "Team Not Found";
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching JSON:", error);
+                });
+        </script>
+        <hr class="m-0" />
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+        <script>
+            let playerDivId = null;
+            $(function () {
+                fetch(`https://stable-redbird-sunny.ngrok-free.app/players?squadName=${"Liverpool"}`,
+                 {
+                    headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                    },
+                    }).then((data)=>data.json()).then((data)=>{
                                 
-                                for(var i in data){
-                                    var player = data[i];
-                                    
-                                    // 한 행에 4개의 데이터가 들어가도록 조건문 추가
-                                    if(count % 4 === 0){
-                                        var row = $("<tr/>");
-                                    }
-                                    
-                                    var cell = $("<td/>").append(
-                                        $("<div/>").append(
-                                            $("<img/>").addClass("player-img").attr("src", player.img).attr("width", "100").attr("height", "100"),
-                                            $("<div/>").addClass("div-between").append(
-                                                $("<span/>").addClass("label").text("Name "),
-                                                $("<span/>").addClass("player-data").text(player.Name)
-                                            ),
-
-                                            $("<div/>").addClass("div-between").append(
-                                                $("<span/>").addClass("label").text("Position "),
-                                                $("<span/>").addClass("player-data").text(player.Position)
-                                            ),
-
-                                            $("<div/>").addClass("div-between").append(
-                                                $("<span/>").addClass("label").text("Squad Number "),
-                                                $("<span/>").addClass("player-data").text(player.SquadNumber)
-                                            ),
-
-                                            $("<div/>").addClass("div-between").append(
-                                                $("<span/>").addClass("label").text("Nationality "),
-                                                $("<span/>").addClass("player-data").text(player.Nationality)
-                                            ),
-
-                                            $("<div/>").addClass("div-between").append(
-                                                $("<span/>").addClass("label").text("Date of Birth "),
-                                                $("<span/>").addClass("player-data").text(player.DateOfBirth)
-                                            )
-                                        )
-                                    );
-                                    
-                                    row.append(cell);
-                                    table.append(row);
-                                    
-                                    count++;
+                        if (data.length > 0) {
+                            const table = $("<table/>");
+                            let count = 0; // 현재 행에 추가된 데이터 수를 추적
+                            
+                            for (var i in data) {
+                                const player = data[i];
+                                console.log(player)
+                                // 한 행에 4개의 데이터가 들어가도록 조건문 추가
+                                if (count % 4 === 0) {
+                                    row = $("<tr/>");
                                 }
-                                
-                                $(".player-info .wrap").append(table);
+
+                                const cell = $("<td/>").attr("id", player.id).append(
+                                    $("<div/>").addClass("div-center").append(
+                                        $("<img/>").addClass("player-img").attr("src", player.profileUrl).attr("width", "100").attr("height", "100"),
+                                        $("<div/>").addClass("div-between").append(
+                                            $("<span/>").addClass("label").text("Name "),
+                                            $("<span/>").addClass("player-data").text(player.name)
+                                        )
+                                    )
+                                );
+
+                                row.append(cell);
+
+                                // 클릭 이벤트 리스너를 추가하여 해당 "player-id-"를 클릭할 때 모달 열기
+                                cell.on("click", function () {
+                                    playerDivId = $(this).attr("id");
+                                    openModal();
+                                });
+
+                                table.append(row);
+                                count+=1;
                             }
+                            
+                            $(".player-info .wrap").append(table);
+                        };
+                    })
+                   
+
+                // 모달을 열기 위한 함수
+
+                function openModal() {
+                    const modal = document.getElementById("modal");
+                    const closeModalBtn = document.getElementById("close-modal");
+                    console.log("Player ID sent to playerDetail.html:", playerDivId);
+                    // 클릭된 요소의 id 전송
+                    $(".modal-content p").append("<br>Clicked Player ID: " + playerDivId);
+                    //$(".modal-content h2").text("" + playerDivId);
+                    // playerDetail.html을 모달에 로드 (Ajax 사용)
+                    $.ajax({
+                        url: "playerDetail.html",
+                        dataType: "html",
+                        success: function (data) {
+                            // 클릭된 플레이어의 ID를 playerDetail.html에 전달
+                            $(".modal-content p").html(data);
+                            
+                        }
+                        //html 열면서 style 불러와지는데 이거 삭제 안하고 숨기기만 해서 css 덮어졌다 이거 일단 reload로 임시방편
+                    });
+
+                    // 모달 열기
+                    modal.style.display = "block";
+                    document.body.style.overflow = "hidden"; // 스크롤바 제거
+
+                    // 모달 닫기
+                    closeModalBtn.addEventListener("click", () => {
+                        closeModal();
+                    });
+
+                    // 모달 바깥을 클릭하면 모달 닫기
+                    window.addEventListener("click", function (event) {
+                        if (event.target == modal) {
+                            closeModal();
                         }
                     });
-                });
-            </script>
-            <section class="resume-section" id="Player">
-                <h2>Players</h2>
-                <div class="player-info">                    
+
+                    // 모달을 닫는 함수
+                    // 모달을 닫는 함수
+                      function closeModal() {
+                          modal.style.display = "none";
+                          document.body.style.overflow = "auto"; // 스크롤바 보이기
+
+                        // 모든 <style> 요소를 선택
+
+                         
+                      }
+
+                 
+                }
+
+            });
+        </script>
+
+        <section class="resume-section" id="Player">
+            <h2 style="font-size: 50px;" class="font-bold">Players</h2>
+            <div class="player-info">
+                <PlayerCard player="player">
                     <div class="wrap"></div>
-                </div>
-            </section>
-            
-            
-              
-              
-            <hr class="m-0" />
-            
-
-            <section class="resume-section" id="History">
-                <div class="news-window">
-                    <h1 class="mb-0">
-                        Recent Issues of 
-                        <span class="text-liverpool">Liverpool FC</span>
-                    </h1>
-                    <div id="news"></div>
-                </div>
-                <script>
-                    function displayNews(articles) {
-                    var newsContainer = document.getElementById('news');
-                    var newsList = document.createElement('ul');
-
-                    for (var i = 0; i < 12; i++) {
-                        var article = articles[i];
-                        var title = article.title;
-                        var description = article.description;
-                        var url = article.url;
-
-                        var newsItem = document.createElement('li');
-                        newsItem.classList.add('news-item'); // Add CSS class for styling
-
-                        var newsTitle = document.createElement('h3');
-                        var newsTitleLink = document.createElement('a');
-                        newsTitleLink.href = url;
-                        newsTitleLink.textContent = title;
-                        newsTitle.appendChild(newsTitleLink);
-
-                        var newsDescription = document.createElement('p');
-                        newsDescription.innerHTML = description;
-
-                        newsItem.appendChild(newsTitle);
-                        newsItem.appendChild(newsDescription);
-                        newsList.appendChild(newsItem);
-                        }
-
-                        newsContainer.appendChild(newsList);
-                    }
-    
-                    // Make an API request to retrieve Liverpool FC news articles
-                    var apiKey = 'b4295117b89a4095b79b9bb32af8df0f';
-                    var apiUrl = 'https://newsapi.org/v2/everything?q=Liverpool FC&apiKey=' + apiKey;
-    
-                    fetch(apiUrl)
-                        .then(function(response) {
-                            return response.json();
-                        })
-                        .then(function(data) {
-                            var articles = data.articles;
-                            displayNews(articles);
-                        })
-                        .catch(function(error) {
-                            console.log(error);
-                        });
-                </script>
-            </section>  
-            
-            <section class="resume-section" id="Video">
-                <div>
-                    <h1>video contents</h1>
-                    <div class = "row">
-                    <iframe class = "col" width="560" height="500" src="https://www.youtube.com/embed/C7F83DCeHQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe class = "col" width="560" height="500" src="https://www.youtube.com/embed/zIlwMVkeJ5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe class = "col" width="560" height="500" src="https://www.youtube.com/embed/Tu5cO7dzL0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    
-                    </div>
-                    <hr>
-                    <div class = "row">
-                        <iframe class = "col" width="560" height="500" src="https://www.youtube.com/embed/fEJDP7sJuQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <iframe class = "col" width="560" height="500" src="https://www.youtube.com/embed/cGJBKbManZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <iframe class = "col" width="560" height="500" src="https://www.youtube.com/embed/Ik-DhHJM8eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
-                    </div>            
-                </div>
-            </section>
-            <hr class="m-0" />
-
-            <section class="resume-section-content" id="Location">
-                <h1 class="text-liverpool">Anfield</h1>
-                <div style="display: flex; flex-wrap: wrap;">
-                    <div style="flex: 1; width: 60%;">
-                        <div id="map" style="height: 600px;"></div>
-                    </div>
-                    <div style="flex: 1; width: 40%;">
-                        <img src="https://c.files.bbci.co.uk/E290/production/_103200085_gettyimages-958474830.jpg" style="width: 100%; height: 600px;">
-                        
-                    </div>
-                </div>
-            
-                <script>
-                    function initMap() {
-                        var emiratesStadium = {lat: 53.4309, lng: -2.9608};
-                        var map = new google.maps.Map(document.getElementById('map'), {
-                            center: emiratesStadium,
-                            zoom: 15
-                        });
-                        var marker = new google.maps.Marker({
-                            position: emiratesStadium,
-                            map: map,
-                            title: "Emirates Stadium"
-                        });
-                    }
-                </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNyoPjiCKmwp_WwlDIuvfPzGIVI07ozZA&callback=initMap" async defer></script>
-            </section>
-            <hr class="m-0" />
-            
-            <div class="white_content" id="p-stat">
-                <div>
-                    <a href="#close" class="close-link">Close</a>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <h3 style="margin-left: 50%;">Attack</h3>
-                            <div id="attack-chart"></div>
-                        </div>
-                        <div class="col-sm-4">
-                            <h3 style="margin-left: 50%;">Team Play</h3>
-                            <div id="team-play-chart"></div>
-                        </div>
-                        <div class="col-sm-4">
-                            <h3 style="margin-left: 50%;">Defence</h3>
-                            <div id="defence-chart"></div>
-                        </div>
-                    </div>
-                </div>
             </div>
+        </section>
 
-            <div class="white_content" id="t-stat">
-                <div>
-                    <a href="#close" class="close-link">닫기</a>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <h3>Goals Scored Ranking</h3>
-                            <div id="goals-chart"></div>
-                        </div>
-                        <div class="col-sm-4">
-                            <h3>Final Rankings (Past 5 Years)</h3>
-                            <div id="rankings-chart"></div>
-                        </div>
-                        <div class="col-sm-4">
-                            <h3>22-23 Match Results</h3>
-                            <div id="results-chart"></div>
-                        </div>
-                    </div>
-                    
-                </div>
+
+        <div id="modal" , class="player-id-">
+            <div class="modal-content rounded-lg" style="width:fit-content; height: fit-content;">
+                <h2></h2>
+                <p></p>
+                <button id="close-modal">close</button>
             </div>
-             
-            <section class="resume-section" id="Stats">
-                <div class="row">
-                    
-                        <div class="col-sm-6">
-                            <h1>22-23 Key Player</h1>                        
-                            <a href="#p-stat">
-                                <div class="player-info" >                            
-                                    <img src="https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2023-02/salah%20action.webp?itok=LbjEh980" alt="Player 1 Photo" class="player-photo" width="400" >
-                                    <div class="player-details">
-                                        <h3>Mohamed Salah</h3>
-                                    </div>                       
-                                </div>
-                            </a>
-                        </div> 
-                        <div class="col-sm-6">
-                        <h1>Team Stats</h1>
-                            <a href="#t-stat">
-                                <div class="player-info" >                            
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" alt="Player 1 Photo" class="player-photo" width="400" >
-                                                    
-                                </div>
-                            </a>
-                        </div>                    
-                </div>
-               
-            </section>
-            
-            <script src="https://www.gstatic.com/charts/loader.js"></script>
-            <script>
-                google.charts.load('current', { packages: ['corechart'] });
-                google.charts.setOnLoadCallback(drawCharts);
-            
-                function drawCharts() {
-                    var chartSize = { width: 600, height: 400 }; // Define chart size once
-            
-                    drawGoalsChart(chartSize);
-                    drawRankingsChart(chartSize);
-                    drawResultsChart(chartSize);
-                    drawAttackChart(chartSize);
-                    drawTeamPlayChart(chartSize);
-                    drawDefenceChart(chartSize);
-                }
-            
-                function drawGoalsChart(options) {
-                    function getGoalsRankings() {
-                        return [
-                            ['Player', 'Goals Scored'],
-                            ['Mohamed Salah', 19],
-                            ['Roberto Firmino', 11],
-                            ['Darwin Núñez', 9],
-                        ];
-                    }
-            
-                    var goalsData = getGoalsRankings();
-                    var data = google.visualization.arrayToDataTable(goalsData);
-            
-                    var chart = new google.visualization.ColumnChart(document.getElementById('goals-chart'));
-                    chart.draw(data, options);
-                }
-            
-                function drawRankingsChart(options) {
-                    function getFinalRankings() {
-                        return [
-                            ['Year', 'Final Rank'],
-                            ['18-19', 2],
-                            ['19-20', 1],
-                            ['20-21', 3],
-                            ['21-22', 2],
-                            ['22-23', 5],
-                            // Add rankings for other years
-                        ];
-                    }
-            
-                    var rankingsData = getFinalRankings();
-                    var data = google.visualization.arrayToDataTable(rankingsData);
-            
-                    var chart = new google.visualization.LineChart(document.getElementById('rankings-chart'));
-            
-                    // Set reverse axis options
-                    var optionsWithReversedAxis = Object.assign({}, options);
-                    optionsWithReversedAxis.vAxis = { direction: -1, ticks: Array.from({ length: 20 }, (_, i) => i + 1) }; // Reverse the vertical axis and set the ticks
-            
-                    chart.draw(data, optionsWithReversedAxis);
-                }
-            
-                function drawResultsChart(options) {
-                    function getRecentResults() {
-                        return [
-                            ['Result', 'Count'],
-                            ['Win', 19],
-                            ['Loss', 10],
-                            ['Draw', 9]
-                            // Add other match result data
-                        ];
-                    }
-            
-                    var resultsData = getRecentResults();
-                    var data = google.visualization.arrayToDataTable(resultsData);
-            
-                    var chart = new google.visualization.PieChart(document.getElementById('results-chart'));
-                    chart.draw(data, options);
-                }
-            
-                function drawAttackChart(options) {
-                    function getAttackData() {
-                        return [
-                            ['Category', 'Value'],
-                            ['Goals', 139],
-                            ['Goals per match', 0.60],
-                            ['Headed goals', 7],
-                            ['Goals with right foot', 21],
-                            ['Goals with left foot', 111],
-                            ['Penalties scored', 20],
-                            ['Freekicks scored', 0],
-                            ['Shots', 826],
-                            ['Shots on target', 356],
-                            ['Shooting accuracy %', 43],
-                            ['Hit woodwork', 19],
-                            ['Big chances missed', 0]
-                        ];
-                    }
+        </div>
+        </section>
 
-                    var attackData = getAttackData();
-                    var data = google.visualization.arrayToDataTable(attackData);
 
-                    var chart = new google.visualization.ColumnChart(document.getElementById('attack-chart'));
-                    chart.draw(data, options);
-                }
-
-                function drawTeamPlayChart(options) {
-                    function getTeamPlayData() {
-                        return [
-                            ['Category', 'Value'],
-                            ['Assists', 59],
-                            ['Passes', 6709],
-                            ['Passes per match', 29.04],
-                            ['Big Chances Created', 86],
-                            ['Crosses', 307]
-                        ];
-                    }
-
-                    var teamPlayData = getTeamPlayData();
-                    var data = google.visualization.arrayToDataTable(teamPlayData);
-
-                    var chart = new google.visualization.ColumnChart(document.getElementById('team-play-chart'));
-                    chart.draw(data, options);
-                }
-
-                function drawDefenceChart(options) {
-                    function getDefenceData() {
-                        return [
-                            ['Category', 'Value'],
-                            ['Tackles', 112],
-                            ['Blocked shots', 209],
-                            ['Interceptions', 38],
-                            ['Clearances', 29],
-                            ['Headed Clearance', 14]
-                        ];
-                    }
-
-                    var defenceData = getDefenceData();
-                    var data = google.visualization.arrayToDataTable(defenceData);
-
-                    var chart = new google.visualization.ColumnChart(document.getElementById('defence-chart'));
-                    chart.draw(data, options);
-                }
-
-            </script>
-            
-                <hr class="m-0" />
-            
-            
-       
-    
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+</body>
+
 </html>
