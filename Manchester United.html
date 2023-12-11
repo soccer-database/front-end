@@ -17,6 +17,7 @@
             box-sizing: border-box !important;
             text-align: left !important;
         }
+
         .team-label {
             float: left !important;
             clear: both !important;
@@ -33,6 +34,7 @@
             box-sizing: border-box !important;
             text-align: right !important;
         }
+
         .team-data {
             float: left !important;
             clear: both !important;
@@ -48,20 +50,22 @@
             padding-left: 10px !important;
             padding-right: 10px !important;
         }
-        .stat-chart {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        margin: 0 auto;
-      }
 
-      .stat-label {
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        font-size: 0.75rem;
-      }
-      .select {
+        .stat-chart {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        .stat-label {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 0.75rem;
+        }
+
+        .select {
             background-color: transparent;
             outline: 0 none;
         }
@@ -72,15 +76,16 @@
             color: white;
             outline: 0 none;
         }
-        
+
         .div-center {
-          max-width: 300px;
-        }
-        .div-center img {
-            display: block;
-            margin: 0 auto; /* 가로 방향 가운데 정렬을 위해 margin을 auto로 설정 */
+            max-width: 300px;
         }
 
+        .div-center img {
+            display: block;
+            margin: 0 auto;
+            /* 가로 방향 가운데 정렬을 위해 margin을 auto로 설정 */
+        }
     </style>
 
 </head>
@@ -97,8 +102,9 @@
                     <li class="nav-item"><a class="nav-link" href="Chelsea.html">Chelsea</a></li>
                     <li class="nav-item"><a class="nav-link" href="Liverpool.html">Liverpool</a></li>
                     <li class="nav-item"><a class="nav-link" href="Manchester City.html">Manchester City</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="Manchester United.html">Manchester United</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Tottenham Hotspur.html">Tottenham Hotspur</a></li>                        
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="Manchester United.html">Manchester United</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Tottenham Hotspur.html">Tottenham Hotspur</a></li>
                 </ul>
                 <form class="d-flex">
                 </form>
@@ -110,14 +116,16 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-manu fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none"></span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png" alt="..." /></span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png"
+                    alt="..." /></span>
         </a>
         <button class="navbar-toggler" type="button"></span></button>
         <div class="navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Info">Info</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Player">Players</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#History">Issues</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team-record">team records</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Video">Video</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Location">Location</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Stats">Stats</a></li>
@@ -200,17 +208,17 @@
             let playerDivId = null;
             $(function () {
                 fetch(`https://stable-redbird-sunny.ngrok-free.app/players?squadName=${"Manchester Utd"}`,
-                 {
-                    headers: {
-                    "Content-Type": "application/json",
-                    "ngrok-skip-browser-warning": "69420",
-                    },
-                    }).then((data)=>data.json()).then((data)=>{
-                                
+                    {
+                        headers: {
+                            "Content-Type": "application/json",
+                            "ngrok-skip-browser-warning": "69420",
+                        },
+                    }).then((data) => data.json()).then((data) => {
+
                         if (data.length > 0) {
                             const table = $("<table/>");
                             let count = 0; // 현재 행에 추가된 데이터 수를 추적
-                            
+
                             for (var i in data) {
                                 const player = data[i];
                                 console.log(player)
@@ -238,13 +246,13 @@
                                 });
 
                                 table.append(row);
-                                count+=1;
+                                count += 1;
                             }
-                            
+
                             $(".player-info .wrap").append(table);
                         };
                     })
-                   
+
 
                 // 모달을 열기 위한 함수
 
@@ -262,7 +270,7 @@
                         success: function (data) {
                             // 클릭된 플레이어의 ID를 playerDetail.html에 전달
                             $(".modal-content p").html(data);
-                            
+
                         }
                         //html 열면서 style 불러와지는데 이거 삭제 안하고 숨기기만 해서 css 덮어졌다 이거 일단 reload로 임시방편
                     });
@@ -285,16 +293,16 @@
 
                     // 모달을 닫는 함수
                     // 모달을 닫는 함수
-                      function closeModal() {
-                          modal.style.display = "none";
-                          document.body.style.overflow = "auto"; // 스크롤바 보이기
+                    function closeModal() {
+                        modal.style.display = "none";
+                        document.body.style.overflow = "auto"; // 스크롤바 보이기
 
                         // 모든 <style> 요소를 선택
 
-                         
-                      }
 
-                 
+                    }
+
+
                 }
 
             });
@@ -316,7 +324,61 @@
                 <button id="close-modal">close</button>
             </div>
         </div>
+        <section class="resume-section" id="team-record">
+            <h2 style="font-size: 50px;" class="font-bold">team records</h2>
+            <div id="record">
+                <table id="matchesTable">
+                    <tr>
+                        <th>Week</th>
+                        <th>Day</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Home</th>
+                        <th>Score</th>
+                        <th>Away</th>
+                    </tr>
+                </table>
+            </div>
         </section>
+
+        <script>
+            $(function () {
+                $.ajax({
+                    url: "teamRecords.json",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.length > 0) {
+                            // Loop through each record in the data
+                            for (var i = 0; i < data.length; i++) {
+                                var record = data[i];
+                                team = "Manchester Utd";
+                                // Check if the "Home" or "Away" contains the desired string
+                                if (record["Home"].includes(`${team}`) || record["Away"].includes(`${team}`)) {
+                                    // Create a row
+                                    var row = $("<tr/>");
+
+                                    // Loop through each property in the record
+                                    $.each(record, function (key, value) {
+                                        // Create a cell and append it to the row
+                                        var cell = $("<td/>");
+                                        cell.text(value);
+                                        row.append(cell);
+                                    });
+
+                                    // Append the row to the table
+                                    $("#matchesTable").append(row);
+                                }
+                            }
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Failed to load JSON file:", status, error);
+                    }
+                });
+            });
+
+
+        </script>
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
