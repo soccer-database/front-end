@@ -329,8 +329,7 @@
             <div id="record">
                 <table id="matchesTable">
                     <tr>
-                        <th>Week</th>
-                        <th>Day</th>
+                        <th>No.</th>
                         <th>Date</th>
                         <th>Time</th>
                         <th>Home</th>
@@ -403,13 +402,13 @@
                                     var row = $("<tr/>");
 
                                     // Loop through each property in the record
-                                    $.each(record, function (key, value) {
-                                        // Create a cell and append it to the row
-                                        var cell = $("<td/>");
-                                        cell.text(value);
-                                        row.append(cell);
-                                    });
 
+                                row.append( $("<td/>").text(record.id))
+                                row.append( $("<td/>").text(record.matchDate))
+                                row.append( $("<td/>").text(record.matchStartTime))
+                                row.append( $("<td/>").text(record.homeSquadName))
+                                row.append( $("<td/>").text(record.homeScore + '-' +  record.awayScore))
+                                row.append( $("<td/>").text(record.awaySquadName))
                                     // Append the row to the table
                                     $("#matchesTable").append(row);
                                 //}
