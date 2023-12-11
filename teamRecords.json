@@ -1,0 +1,3422 @@
+[
+  {
+    "Wk": 1,
+    "Day": "Fri",
+    "Date": "2022-08-05",
+    "Time": "20:00",
+    "Home": "Crystal Palace",
+    "Score": "0–2",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sat",
+    "Date": "2022-08-06",
+    "Time": "12:30",
+    "Home": "Fulham",
+    "Score": "2–2",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sat",
+    "Date": "2022-08-06",
+    "Time": "15:00",
+    "Home": "Tottenham",
+    "Score": "4–1",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sat",
+    "Date": "2022-08-06",
+    "Time": "15:00",
+    "Home": "Newcastle Utd",
+    "Score": "2–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sat",
+    "Date": "2022-08-06",
+    "Time": "15:00",
+    "Home": "Leeds United",
+    "Score": "2–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sat",
+    "Date": "2022-08-06",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "2–0",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sat",
+    "Date": "2022-08-06",
+    "Time": "17:30",
+    "Home": "Everton",
+    "Score": "0–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sun",
+    "Date": "2022-08-07",
+    "Time": "14:00",
+    "Home": "Leicester City",
+    "Score": "2–2",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sun",
+    "Date": "2022-08-07",
+    "Time": "14:00",
+    "Home": "Manchester Utd",
+    "Score": "1–2",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 1,
+    "Day": "Sun",
+    "Date": "2022-08-07",
+    "Time": "16:30",
+    "Home": "West Ham",
+    "Score": "0–2",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sat",
+    "Date": "2022-08-13",
+    "Time": "12:30",
+    "Home": "Aston Villa",
+    "Score": "2–1",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sat",
+    "Date": "2022-08-13",
+    "Time": "15:00",
+    "Home": "Manchester City",
+    "Score": "4–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sat",
+    "Date": "2022-08-13",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "2–2",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sat",
+    "Date": "2022-08-13",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "0–0",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sat",
+    "Date": "2022-08-13",
+    "Time": "15:00",
+    "Home": "Arsenal",
+    "Score": "4–2",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sat",
+    "Date": "2022-08-13",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "0–0",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sat",
+    "Date": "2022-08-13",
+    "Time": "17:30",
+    "Home": "Brentford",
+    "Score": "4–0",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sun",
+    "Date": "2022-08-14",
+    "Time": "14:00",
+    "Home": "Nott'ham Forest",
+    "Score": "1–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 2,
+    "Day": "Sun",
+    "Date": "2022-08-14",
+    "Time": "16:30",
+    "Home": "Chelsea",
+    "Score": "2–2",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 2,
+    "Day": "Mon",
+    "Date": "2022-08-15",
+    "Time": "20:00",
+    "Home": "Liverpool",
+    "Score": "1–1",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sat",
+    "Date": "2022-08-20",
+    "Time": "12:30",
+    "Home": "Tottenham",
+    "Score": "1–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sat",
+    "Date": "2022-08-20",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "1–2",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sat",
+    "Date": "2022-08-20",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "1–1",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sat",
+    "Date": "2022-08-20",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "3–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sat",
+    "Date": "2022-08-20",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "3–2",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sat",
+    "Date": "2022-08-20",
+    "Time": "17:30",
+    "Home": "Bournemouth",
+    "Score": "0–3",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sun",
+    "Date": "2022-08-21",
+    "Time": "14:00",
+    "Home": "Leeds United",
+    "Score": "3–0",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sun",
+    "Date": "2022-08-21",
+    "Time": "14:00",
+    "Home": "West Ham",
+    "Score": "0–2",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 3,
+    "Day": "Sun",
+    "Date": "2022-08-21",
+    "Time": "16:30",
+    "Home": "Newcastle Utd",
+    "Score": "3–3",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 3,
+    "Day": "Mon",
+    "Date": "2022-08-22",
+    "Time": "20:00",
+    "Home": "Manchester Utd",
+    "Score": "2–1",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sat",
+    "Date": "2022-08-27",
+    "Time": "12:30",
+    "Home": "Southampton",
+    "Score": "0–1",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sat",
+    "Date": "2022-08-27",
+    "Time": "15:00",
+    "Home": "Manchester City",
+    "Score": "4–2",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sat",
+    "Date": "2022-08-27",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "1–0",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sat",
+    "Date": "2022-08-27",
+    "Time": "15:00",
+    "Home": "Chelsea",
+    "Score": "2–1",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sat",
+    "Date": "2022-08-27",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "1–1",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sat",
+    "Date": "2022-08-27",
+    "Time": "15:00",
+    "Home": "Liverpool",
+    "Score": "9–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sat",
+    "Date": "2022-08-27",
+    "Time": "17:30",
+    "Home": "Arsenal",
+    "Score": "2–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sun",
+    "Date": "2022-08-28",
+    "Time": "14:00",
+    "Home": "Wolves",
+    "Score": "1–1",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sun",
+    "Date": "2022-08-28",
+    "Time": "14:00",
+    "Home": "Aston Villa",
+    "Score": "0–1",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 4,
+    "Day": "Sun",
+    "Date": "2022-08-28",
+    "Time": "16:30",
+    "Home": "Nott'ham Forest",
+    "Score": "0–2",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 5,
+    "Day": "Tue",
+    "Date": "2022-08-30",
+    "Time": "19:30",
+    "Home": "Fulham",
+    "Score": "2–1",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 5,
+    "Day": "Tue",
+    "Date": "2022-08-30",
+    "Time": "19:30",
+    "Home": "Crystal Palace",
+    "Score": "1–1",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 5,
+    "Day": "Tue",
+    "Date": "2022-08-30",
+    "Time": "19:45",
+    "Home": "Southampton",
+    "Score": "2–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 5,
+    "Day": "Tue",
+    "Date": "2022-08-30",
+    "Time": "20:00",
+    "Home": "Leeds United",
+    "Score": "1–1",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 5,
+    "Day": "Wed",
+    "Date": "2022-08-31",
+    "Time": "19:30",
+    "Home": "Bournemouth",
+    "Score": "0–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 5,
+    "Day": "Wed",
+    "Date": "2022-08-31",
+    "Time": "19:30",
+    "Home": "Manchester City",
+    "Score": "6–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 5,
+    "Day": "Wed",
+    "Date": "2022-08-31",
+    "Time": "19:30",
+    "Home": "Arsenal",
+    "Score": "2–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 5,
+    "Day": "Wed",
+    "Date": "2022-08-31",
+    "Time": "19:45",
+    "Home": "West Ham",
+    "Score": "1–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 5,
+    "Day": "Wed",
+    "Date": "2022-08-31",
+    "Time": "20:00",
+    "Home": "Liverpool",
+    "Score": "2–1",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 5,
+    "Day": "Thu",
+    "Date": "2022-09-01",
+    "Time": "20:00",
+    "Home": "Leicester City",
+    "Score": "0–1",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "12:30",
+    "Home": "Everton",
+    "Score": "0–0",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "15:00",
+    "Home": "Nott'ham Forest",
+    "Score": "2–3",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "1–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "15:00",
+    "Home": "Newcastle Utd",
+    "Score": "0–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "5–2",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "15:00",
+    "Home": "Tottenham",
+    "Score": "2–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "15:00",
+    "Home": "Chelsea",
+    "Score": "2–1",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sat",
+    "Date": "2022-09-03",
+    "Time": "17:30",
+    "Home": "Aston Villa",
+    "Score": "1–1",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sun",
+    "Date": "2022-09-04",
+    "Time": "14:00",
+    "Home": "Brighton",
+    "Score": "5–2",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 6,
+    "Day": "Sun",
+    "Date": "2022-09-04",
+    "Time": "16:30",
+    "Home": "Manchester Utd",
+    "Score": "3–1",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 8,
+    "Day": "Fri",
+    "Date": "2022-09-16",
+    "Time": "20:00",
+    "Home": "Aston Villa",
+    "Score": "1–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 8,
+    "Day": "Fri",
+    "Date": "2022-09-16",
+    "Time": "20:00",
+    "Home": "Nott'ham Forest",
+    "Score": "2–3",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 8,
+    "Day": "Sat",
+    "Date": "2022-09-17",
+    "Time": "12:30",
+    "Home": "Wolves",
+    "Score": "0–3",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 8,
+    "Day": "Sat",
+    "Date": "2022-09-17",
+    "Time": "15:00",
+    "Home": "Newcastle Utd",
+    "Score": "1–1",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 8,
+    "Day": "Sat",
+    "Date": "2022-09-17",
+    "Time": "17:30",
+    "Home": "Tottenham",
+    "Score": "6–2",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 8,
+    "Day": "Sun",
+    "Date": "2022-09-18",
+    "Time": "12:00",
+    "Home": "Brentford",
+    "Score": "0–3",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 8,
+    "Day": "Sun",
+    "Date": "2022-09-18",
+    "Time": "14:15",
+    "Home": "Everton",
+    "Score": "1–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sat",
+    "Date": "2022-10-01",
+    "Time": "12:30",
+    "Home": "Arsenal",
+    "Score": "3–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sat",
+    "Date": "2022-10-01",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "1–2",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sat",
+    "Date": "2022-10-01",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "1–2",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sat",
+    "Date": "2022-10-01",
+    "Time": "15:00",
+    "Home": "Liverpool",
+    "Score": "3–3",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sat",
+    "Date": "2022-10-01",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "1–4",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sat",
+    "Date": "2022-10-01",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "0–0",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sat",
+    "Date": "2022-10-01",
+    "Time": "17:30",
+    "Home": "West Ham",
+    "Score": "2–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sun",
+    "Date": "2022-10-02",
+    "Time": "14:00",
+    "Home": "Manchester City",
+    "Score": "6–3",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 9,
+    "Day": "Sun",
+    "Date": "2022-10-02",
+    "Time": "16:30",
+    "Home": "Leeds United",
+    "Score": "0–0",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 9,
+    "Day": "Mon",
+    "Date": "2022-10-03",
+    "Time": "20:00",
+    "Home": "Leicester City",
+    "Score": "4–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sat",
+    "Date": "2022-10-08",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "2–1",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sat",
+    "Date": "2022-10-08",
+    "Time": "15:00",
+    "Home": "Newcastle Utd",
+    "Score": "5–1",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sat",
+    "Date": "2022-10-08",
+    "Time": "15:00",
+    "Home": "Manchester City",
+    "Score": "4–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sat",
+    "Date": "2022-10-08",
+    "Time": "15:00",
+    "Home": "Chelsea",
+    "Score": "3–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sat",
+    "Date": "2022-10-08",
+    "Time": "17:30",
+    "Home": "Brighton",
+    "Score": "0–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sun",
+    "Date": "2022-10-09",
+    "Time": "14:00",
+    "Home": "West Ham",
+    "Score": "3–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sun",
+    "Date": "2022-10-09",
+    "Time": "14:00",
+    "Home": "Crystal Palace",
+    "Score": "2–1",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sun",
+    "Date": "2022-10-09",
+    "Time": "16:30",
+    "Home": "Arsenal",
+    "Score": "3–2",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 10,
+    "Day": "Sun",
+    "Date": "2022-10-09",
+    "Time": "19:00",
+    "Home": "Everton",
+    "Score": "1–2",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 10,
+    "Day": "Mon",
+    "Date": "2022-10-10",
+    "Time": "20:00",
+    "Home": "Nott'ham Forest",
+    "Score": "1–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 11,
+    "Day": "Fri",
+    "Date": "2022-10-14",
+    "Time": "20:00",
+    "Home": "Brentford",
+    "Score": "2–0",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sat",
+    "Date": "2022-10-15",
+    "Time": "12:30",
+    "Home": "Leicester City",
+    "Score": "0–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sat",
+    "Date": "2022-10-15",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "2–2",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sat",
+    "Date": "2022-10-15",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "1–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sat",
+    "Date": "2022-10-15",
+    "Time": "17:30",
+    "Home": "Tottenham",
+    "Score": "2–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sun",
+    "Date": "2022-10-16",
+    "Time": "14:00",
+    "Home": "Southampton",
+    "Score": "1–1",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sun",
+    "Date": "2022-10-16",
+    "Time": "14:00",
+    "Home": "Aston Villa",
+    "Score": "0–2",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sun",
+    "Date": "2022-10-16",
+    "Time": "14:00",
+    "Home": "Leeds United",
+    "Score": "0–1",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sun",
+    "Date": "2022-10-16",
+    "Time": "14:00",
+    "Home": "Manchester Utd",
+    "Score": "0–0",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 11,
+    "Day": "Sun",
+    "Date": "2022-10-16",
+    "Time": "16:30",
+    "Home": "Liverpool",
+    "Score": "1–0",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 12,
+    "Day": "Tue",
+    "Date": "2022-10-18",
+    "Time": "19:30",
+    "Home": "Brighton",
+    "Score": "0–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 12,
+    "Day": "Tue",
+    "Date": "2022-10-18",
+    "Time": "20:15",
+    "Home": "Crystal Palace",
+    "Score": "2–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 12,
+    "Day": "Wed",
+    "Date": "2022-10-19",
+    "Time": "19:30",
+    "Home": "Bournemouth",
+    "Score": "0–1",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 12,
+    "Day": "Wed",
+    "Date": "2022-10-19",
+    "Time": "19:30",
+    "Home": "Brentford",
+    "Score": "0–0",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 12,
+    "Day": "Wed",
+    "Date": "2022-10-19",
+    "Time": "19:30",
+    "Home": "Liverpool",
+    "Score": "1–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 12,
+    "Day": "Wed",
+    "Date": "2022-10-19",
+    "Time": "19:30",
+    "Home": "Newcastle Utd",
+    "Score": "1–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 12,
+    "Day": "Wed",
+    "Date": "2022-10-19",
+    "Time": "20:15",
+    "Home": "Manchester Utd",
+    "Score": "2–0",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 12,
+    "Day": "Thu",
+    "Date": "2022-10-20",
+    "Time": "19:30",
+    "Home": "Fulham",
+    "Score": "3–0",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 12,
+    "Day": "Thu",
+    "Date": "2022-10-20",
+    "Time": "20:15",
+    "Home": "Leicester City",
+    "Score": "2–0",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sat",
+    "Date": "2022-10-22",
+    "Time": "12:30",
+    "Home": "Nott'ham Forest",
+    "Score": "1–0",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sat",
+    "Date": "2022-10-22",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "3–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sat",
+    "Date": "2022-10-22",
+    "Time": "15:00",
+    "Home": "Manchester City",
+    "Score": "3–1",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sat",
+    "Date": "2022-10-22",
+    "Time": "17:30",
+    "Home": "Chelsea",
+    "Score": "1–1",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sun",
+    "Date": "2022-10-23",
+    "Time": "14:00",
+    "Home": "Aston Villa",
+    "Score": "4–0",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sun",
+    "Date": "2022-10-23",
+    "Time": "14:00",
+    "Home": "Wolves",
+    "Score": "0–4",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sun",
+    "Date": "2022-10-23",
+    "Time": "14:00",
+    "Home": "Leeds United",
+    "Score": "2–3",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sun",
+    "Date": "2022-10-23",
+    "Time": "14:00",
+    "Home": "Southampton",
+    "Score": "1–1",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 13,
+    "Day": "Sun",
+    "Date": "2022-10-23",
+    "Time": "16:30",
+    "Home": "Tottenham",
+    "Score": "1–2",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 13,
+    "Day": "Mon",
+    "Date": "2022-10-24",
+    "Time": "20:00",
+    "Home": "West Ham",
+    "Score": "2–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "12:30",
+    "Home": "Leicester City",
+    "Score": "0–1",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "1–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "1–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "15:00",
+    "Home": "Newcastle Utd",
+    "Score": "4–0",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "4–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "2–3",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "17:30",
+    "Home": "Fulham",
+    "Score": "0–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sat",
+    "Date": "2022-10-29",
+    "Time": "19:45",
+    "Home": "Liverpool",
+    "Score": "1–2",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sun",
+    "Date": "2022-10-30",
+    "Time": "14:00",
+    "Home": "Arsenal",
+    "Score": "5–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 14,
+    "Day": "Sun",
+    "Date": "2022-10-30",
+    "Time": "16:15",
+    "Home": "Manchester Utd",
+    "Score": "1–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sat",
+    "Date": "2022-11-05",
+    "Time": "15:00",
+    "Home": "Nott'ham Forest",
+    "Score": "2–2",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sat",
+    "Date": "2022-11-05",
+    "Time": "15:00",
+    "Home": "Leeds United",
+    "Score": "4–3",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sat",
+    "Date": "2022-11-05",
+    "Time": "15:00",
+    "Home": "Manchester City",
+    "Score": "2–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sat",
+    "Date": "2022-11-05",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "2–3",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sat",
+    "Date": "2022-11-05",
+    "Time": "17:30",
+    "Home": "Everton",
+    "Score": "0–2",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sun",
+    "Date": "2022-11-06",
+    "Time": "12:00",
+    "Home": "Chelsea",
+    "Score": "0–1",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sun",
+    "Date": "2022-11-06",
+    "Time": "14:00",
+    "Home": "West Ham",
+    "Score": "1–2",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sun",
+    "Date": "2022-11-06",
+    "Time": "14:00",
+    "Home": "Southampton",
+    "Score": "1–4",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sun",
+    "Date": "2022-11-06",
+    "Time": "14:00",
+    "Home": "Aston Villa",
+    "Score": "3–1",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 15,
+    "Day": "Sun",
+    "Date": "2022-11-06",
+    "Time": "16:30",
+    "Home": "Tottenham",
+    "Score": "1–2",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "12:30",
+    "Home": "Manchester City",
+    "Score": "1–2",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "15:00",
+    "Home": "Tottenham",
+    "Score": "4–3",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "15:00",
+    "Home": "Liverpool",
+    "Score": "3–1",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "3–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "15:00",
+    "Home": "West Ham",
+    "Score": "0–2",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "15:00",
+    "Home": "Nott'ham Forest",
+    "Score": "1–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "17:30",
+    "Home": "Newcastle Utd",
+    "Score": "1–0",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sat",
+    "Date": "2022-11-12",
+    "Time": "19:45",
+    "Home": "Wolves",
+    "Score": "0–2",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sun",
+    "Date": "2022-11-13",
+    "Time": "14:00",
+    "Home": "Brighton",
+    "Score": "1–2",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 16,
+    "Day": "Sun",
+    "Date": "2022-11-13",
+    "Time": "16:30",
+    "Home": "Fulham",
+    "Score": "1–2",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 17,
+    "Day": "Mon",
+    "Date": "2022-12-26",
+    "Time": "12:30",
+    "Home": "Brentford",
+    "Score": "2–2",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 17,
+    "Day": "Mon",
+    "Date": "2022-12-26",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "1–3",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 17,
+    "Day": "Mon",
+    "Date": "2022-12-26",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "0–3",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 17,
+    "Day": "Mon",
+    "Date": "2022-12-26",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "0–3",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 17,
+    "Day": "Mon",
+    "Date": "2022-12-26",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "1–2",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 17,
+    "Day": "Mon",
+    "Date": "2022-12-26",
+    "Time": "17:30",
+    "Home": "Aston Villa",
+    "Score": "1–3",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 17,
+    "Day": "Mon",
+    "Date": "2022-12-26",
+    "Time": "20:00",
+    "Home": "Arsenal",
+    "Score": "3–1",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 17,
+    "Day": "Tue",
+    "Date": "2022-12-27",
+    "Time": "17:30",
+    "Home": "Chelsea",
+    "Score": "2–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 17,
+    "Day": "Tue",
+    "Date": "2022-12-27",
+    "Time": "20:00",
+    "Home": "Manchester Utd",
+    "Score": "3–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 17,
+    "Day": "Wed",
+    "Date": "2022-12-28",
+    "Time": "20:00",
+    "Home": "Leeds United",
+    "Score": "1–3",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 18,
+    "Day": "Fri",
+    "Date": "2022-12-30",
+    "Time": "19:45",
+    "Home": "West Ham",
+    "Score": "0–2",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 18,
+    "Day": "Fri",
+    "Date": "2022-12-30",
+    "Time": "20:00",
+    "Home": "Liverpool",
+    "Score": "2–1",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sat",
+    "Date": "2022-12-31",
+    "Time": "12:30",
+    "Home": "Wolves",
+    "Score": "0–1",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sat",
+    "Date": "2022-12-31",
+    "Time": "15:00",
+    "Home": "Newcastle Utd",
+    "Score": "0–0",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sat",
+    "Date": "2022-12-31",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "2–1",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sat",
+    "Date": "2022-12-31",
+    "Time": "15:00",
+    "Home": "Manchester City",
+    "Score": "1–1",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sat",
+    "Date": "2022-12-31",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "0–2",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sat",
+    "Date": "2022-12-31",
+    "Time": "17:30",
+    "Home": "Brighton",
+    "Score": "2–4",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sun",
+    "Date": "2023-01-01",
+    "Time": "14:00",
+    "Home": "Tottenham",
+    "Score": "0–2",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 18,
+    "Day": "Sun",
+    "Date": "2023-01-01",
+    "Time": "16:30",
+    "Home": "Nott'ham Forest",
+    "Score": "1–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 19,
+    "Day": "Mon",
+    "Date": "2023-01-02",
+    "Time": "17:30",
+    "Home": "Brentford",
+    "Score": "3–1",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 19,
+    "Day": "Tue",
+    "Date": "2023-01-03",
+    "Time": "19:45",
+    "Home": "Leicester City",
+    "Score": "0–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 19,
+    "Day": "Tue",
+    "Date": "2023-01-03",
+    "Time": "19:45",
+    "Home": "Everton",
+    "Score": "1–4",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 19,
+    "Day": "Tue",
+    "Date": "2023-01-03",
+    "Time": "19:45",
+    "Home": "Arsenal",
+    "Score": "0–0",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 19,
+    "Day": "Tue",
+    "Date": "2023-01-03",
+    "Time": "20:00",
+    "Home": "Manchester Utd",
+    "Score": "3–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 19,
+    "Day": "Wed",
+    "Date": "2023-01-04",
+    "Time": "19:30",
+    "Home": "Southampton",
+    "Score": "0–1",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 19,
+    "Day": "Wed",
+    "Date": "2023-01-04",
+    "Time": "19:45",
+    "Home": "Leeds United",
+    "Score": "2–2",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 19,
+    "Day": "Wed",
+    "Date": "2023-01-04",
+    "Time": "20:00",
+    "Home": "Aston Villa",
+    "Score": "1–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 19,
+    "Day": "Wed",
+    "Date": "2023-01-04",
+    "Time": "20:00",
+    "Home": "Crystal Palace",
+    "Score": "0–4",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 19,
+    "Day": "Thu",
+    "Date": "2023-01-05",
+    "Time": "20:00",
+    "Home": "Chelsea",
+    "Score": "0–1",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 7,
+    "Day": "Thu",
+    "Date": "2023-01-12",
+    "Time": "20:00",
+    "Home": "Fulham",
+    "Score": "2–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 20,
+    "Day": "Fri",
+    "Date": "2023-01-13",
+    "Time": "20:00",
+    "Home": "Aston Villa",
+    "Score": "2–1",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sat",
+    "Date": "2023-01-14",
+    "Time": "12:30",
+    "Home": "Manchester Utd",
+    "Score": "2–1",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sat",
+    "Date": "2023-01-14",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "1–2",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sat",
+    "Date": "2023-01-14",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "1–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sat",
+    "Date": "2023-01-14",
+    "Time": "15:00",
+    "Home": "Nott'ham Forest",
+    "Score": "2–0",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sat",
+    "Date": "2023-01-14",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "3–0",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sat",
+    "Date": "2023-01-14",
+    "Time": "17:30",
+    "Home": "Brentford",
+    "Score": "2–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sun",
+    "Date": "2023-01-15",
+    "Time": "14:00",
+    "Home": "Chelsea",
+    "Score": "1–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sun",
+    "Date": "2023-01-15",
+    "Time": "14:00",
+    "Home": "Newcastle Utd",
+    "Score": "1–0",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 20,
+    "Day": "Sun",
+    "Date": "2023-01-15",
+    "Time": "16:30",
+    "Home": "Tottenham",
+    "Score": "0–2",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 7,
+    "Day": "Wed",
+    "Date": "2023-01-18",
+    "Time": "20:00",
+    "Home": "Crystal Palace",
+    "Score": "1–1",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 7,
+    "Day": "Thu",
+    "Date": "2023-01-19",
+    "Time": "20:00",
+    "Home": "Manchester City",
+    "Score": "4–2",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sat",
+    "Date": "2023-01-21",
+    "Time": "12:30",
+    "Home": "Liverpool",
+    "Score": "0–0",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sat",
+    "Date": "2023-01-21",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "1–1",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sat",
+    "Date": "2023-01-21",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "0–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sat",
+    "Date": "2023-01-21",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "2–2",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sat",
+    "Date": "2023-01-21",
+    "Time": "15:00",
+    "Home": "West Ham",
+    "Score": "2–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sat",
+    "Date": "2023-01-21",
+    "Time": "17:30",
+    "Home": "Crystal Palace",
+    "Score": "0–0",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sun",
+    "Date": "2023-01-22",
+    "Time": "14:00",
+    "Home": "Manchester City",
+    "Score": "3–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sun",
+    "Date": "2023-01-22",
+    "Time": "14:00",
+    "Home": "Leeds United",
+    "Score": "0–0",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 21,
+    "Day": "Sun",
+    "Date": "2023-01-22",
+    "Time": "16:30",
+    "Home": "Arsenal",
+    "Score": "3–2",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 21,
+    "Day": "Mon",
+    "Date": "2023-01-23",
+    "Time": "20:00",
+    "Home": "Fulham",
+    "Score": "0–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 22,
+    "Day": "Fri",
+    "Date": "2023-02-03",
+    "Time": "20:00",
+    "Home": "Chelsea",
+    "Score": "0–0",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sat",
+    "Date": "2023-02-04",
+    "Time": "12:30",
+    "Home": "Everton",
+    "Score": "1–0",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sat",
+    "Date": "2023-02-04",
+    "Time": "15:00",
+    "Home": "Aston Villa",
+    "Score": "2–4",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sat",
+    "Date": "2023-02-04",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "3–0",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sat",
+    "Date": "2023-02-04",
+    "Time": "15:00",
+    "Home": "Manchester Utd",
+    "Score": "2–1",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sat",
+    "Date": "2023-02-04",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "1–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sat",
+    "Date": "2023-02-04",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "3–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sat",
+    "Date": "2023-02-04",
+    "Time": "17:30",
+    "Home": "Newcastle Utd",
+    "Score": "1–1",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sun",
+    "Date": "2023-02-05",
+    "Time": "14:00",
+    "Home": "Nott'ham Forest",
+    "Score": "1–0",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 22,
+    "Day": "Sun",
+    "Date": "2023-02-05",
+    "Time": "16:30",
+    "Home": "Tottenham",
+    "Score": "1–0",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 8,
+    "Day": "Wed",
+    "Date": "2023-02-08",
+    "Time": "20:00",
+    "Home": "Manchester Utd",
+    "Score": "2–2",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sat",
+    "Date": "2023-02-11",
+    "Time": "12:30",
+    "Home": "West Ham",
+    "Score": "1–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sat",
+    "Date": "2023-02-11",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "4–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sat",
+    "Date": "2023-02-11",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "1–1",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sat",
+    "Date": "2023-02-11",
+    "Time": "15:00",
+    "Home": "Arsenal",
+    "Score": "1–1",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sat",
+    "Date": "2023-02-11",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "1–2",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sat",
+    "Date": "2023-02-11",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "2–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sat",
+    "Date": "2023-02-11",
+    "Time": "17:30",
+    "Home": "Bournemouth",
+    "Score": "1–1",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sun",
+    "Date": "2023-02-12",
+    "Time": "14:00",
+    "Home": "Leeds United",
+    "Score": "0–2",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 23,
+    "Day": "Sun",
+    "Date": "2023-02-12",
+    "Time": "16:30",
+    "Home": "Manchester City",
+    "Score": "3–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 23,
+    "Day": "Mon",
+    "Date": "2023-02-13",
+    "Time": "20:00",
+    "Home": "Liverpool",
+    "Score": "2–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 12,
+    "Day": "Wed",
+    "Date": "2023-02-15",
+    "Time": "19:30",
+    "Home": "Arsenal",
+    "Score": "1–3",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "12:30",
+    "Home": "Aston Villa",
+    "Score": "2–4",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "0–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "15:00",
+    "Home": "Nott'ham Forest",
+    "Score": "1–1",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "15:00",
+    "Home": "Chelsea",
+    "Score": "0–1",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "1–0",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "0–1",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "1–1",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sat",
+    "Date": "2023-02-18",
+    "Time": "17:30",
+    "Home": "Newcastle Utd",
+    "Score": "0–2",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sun",
+    "Date": "2023-02-19",
+    "Time": "14:00",
+    "Home": "Manchester Utd",
+    "Score": "3–0",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 24,
+    "Day": "Sun",
+    "Date": "2023-02-19",
+    "Time": "16:30",
+    "Home": "Tottenham",
+    "Score": "2–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 25,
+    "Day": "Fri",
+    "Date": "2023-02-24",
+    "Time": "20:00",
+    "Home": "Fulham",
+    "Score": "1–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 25,
+    "Day": "Sat",
+    "Date": "2023-02-25",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "0–1",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 25,
+    "Day": "Sat",
+    "Date": "2023-02-25",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "0–2",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 25,
+    "Day": "Sat",
+    "Date": "2023-02-25",
+    "Time": "15:00",
+    "Home": "West Ham",
+    "Score": "4–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 25,
+    "Day": "Sat",
+    "Date": "2023-02-25",
+    "Time": "15:00",
+    "Home": "Leeds United",
+    "Score": "1–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 25,
+    "Day": "Sat",
+    "Date": "2023-02-25",
+    "Time": "17:30",
+    "Home": "Bournemouth",
+    "Score": "1–4",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 25,
+    "Day": "Sat",
+    "Date": "2023-02-25",
+    "Time": "19:45",
+    "Home": "Crystal Palace",
+    "Score": "0–0",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 25,
+    "Day": "Sun",
+    "Date": "2023-02-26",
+    "Time": "13:30",
+    "Home": "Tottenham",
+    "Score": "2–0",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 7,
+    "Day": "Wed",
+    "Date": "2023-03-01",
+    "Time": "19:45",
+    "Home": "Arsenal",
+    "Score": "4–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 7,
+    "Day": "Wed",
+    "Date": "2023-03-01",
+    "Time": "20:00",
+    "Home": "Liverpool",
+    "Score": "2–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sat",
+    "Date": "2023-03-04",
+    "Time": "12:30",
+    "Home": "Manchester City",
+    "Score": "2–0",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sat",
+    "Date": "2023-03-04",
+    "Time": "15:00",
+    "Home": "Arsenal",
+    "Score": "3–2",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sat",
+    "Date": "2023-03-04",
+    "Time": "15:00",
+    "Home": "Aston Villa",
+    "Score": "1–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sat",
+    "Date": "2023-03-04",
+    "Time": "15:00",
+    "Home": "Chelsea",
+    "Score": "1–0",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sat",
+    "Date": "2023-03-04",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "4–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sat",
+    "Date": "2023-03-04",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "1–0",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sat",
+    "Date": "2023-03-04",
+    "Time": "17:30",
+    "Home": "Southampton",
+    "Score": "1–0",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sun",
+    "Date": "2023-03-05",
+    "Time": "14:00",
+    "Home": "Nott'ham Forest",
+    "Score": "2–2",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 26,
+    "Day": "Sun",
+    "Date": "2023-03-05",
+    "Time": "16:30",
+    "Home": "Liverpool",
+    "Score": "7–0",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 26,
+    "Day": "Mon",
+    "Date": "2023-03-06",
+    "Time": "20:00",
+    "Home": "Brentford",
+    "Score": "3–2",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sat",
+    "Date": "2023-03-11",
+    "Time": "12:30",
+    "Home": "Bournemouth",
+    "Score": "1–0",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sat",
+    "Date": "2023-03-11",
+    "Time": "15:00",
+    "Home": "Leeds United",
+    "Score": "2–2",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sat",
+    "Date": "2023-03-11",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "1–0",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sat",
+    "Date": "2023-03-11",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "1–3",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sat",
+    "Date": "2023-03-11",
+    "Time": "15:00",
+    "Home": "Tottenham",
+    "Score": "3–1",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sat",
+    "Date": "2023-03-11",
+    "Time": "17:30",
+    "Home": "Crystal Palace",
+    "Score": "0–1",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sun",
+    "Date": "2023-03-12",
+    "Time": "14:00",
+    "Home": "Manchester Utd",
+    "Score": "0–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sun",
+    "Date": "2023-03-12",
+    "Time": "14:00",
+    "Home": "Fulham",
+    "Score": "0–3",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sun",
+    "Date": "2023-03-12",
+    "Time": "14:00",
+    "Home": "West Ham",
+    "Score": "1–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 27,
+    "Day": "Sun",
+    "Date": "2023-03-12",
+    "Time": "16:30",
+    "Home": "Newcastle Utd",
+    "Score": "2–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 7,
+    "Day": "Wed",
+    "Date": "2023-03-15",
+    "Time": "19:30",
+    "Home": "Southampton",
+    "Score": "0–2",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 8,
+    "Day": "Wed",
+    "Date": "2023-03-15",
+    "Time": "19:30",
+    "Home": "Brighton",
+    "Score": "1–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 28,
+    "Day": "Fri",
+    "Date": "2023-03-17",
+    "Time": "20:00",
+    "Home": "Nott'ham Forest",
+    "Score": "1–2",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 28,
+    "Day": "Sat",
+    "Date": "2023-03-18",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "2–4",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 28,
+    "Day": "Sat",
+    "Date": "2023-03-18",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "1–1",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 28,
+    "Day": "Sat",
+    "Date": "2023-03-18",
+    "Time": "15:00",
+    "Home": "Aston Villa",
+    "Score": "3–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 28,
+    "Day": "Sat",
+    "Date": "2023-03-18",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "3–3",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 28,
+    "Day": "Sat",
+    "Date": "2023-03-18",
+    "Time": "17:30",
+    "Home": "Chelsea",
+    "Score": "2–2",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 28,
+    "Day": "Sun",
+    "Date": "2023-03-19",
+    "Time": "14:00",
+    "Home": "Arsenal",
+    "Score": "4–1",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sat",
+    "Date": "2023-04-01",
+    "Time": "12:30",
+    "Home": "Manchester City",
+    "Score": "4–1",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sat",
+    "Date": "2023-04-01",
+    "Time": "15:00",
+    "Home": "Arsenal",
+    "Score": "4–1",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sat",
+    "Date": "2023-04-01",
+    "Time": "15:00",
+    "Home": "Nott'ham Forest",
+    "Score": "1–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sat",
+    "Date": "2023-04-01",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "3–3",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sat",
+    "Date": "2023-04-01",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "2–1",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sat",
+    "Date": "2023-04-01",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "2–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sat",
+    "Date": "2023-04-01",
+    "Time": "17:30",
+    "Home": "Chelsea",
+    "Score": "0–2",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sun",
+    "Date": "2023-04-02",
+    "Time": "14:00",
+    "Home": "West Ham",
+    "Score": "1–0",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 29,
+    "Day": "Sun",
+    "Date": "2023-04-02",
+    "Time": "16:30",
+    "Home": "Newcastle Utd",
+    "Score": "2–0",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 29,
+    "Day": "Mon",
+    "Date": "2023-04-03",
+    "Time": "20:00",
+    "Home": "Everton",
+    "Score": "1–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 7,
+    "Day": "Tue",
+    "Date": "2023-04-04",
+    "Time": "19:45",
+    "Home": "Leeds United",
+    "Score": "2–1",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 7,
+    "Day": "Tue",
+    "Date": "2023-04-04",
+    "Time": "19:45",
+    "Home": "Bournemouth",
+    "Score": "0–2",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 7,
+    "Day": "Tue",
+    "Date": "2023-04-04",
+    "Time": "19:45",
+    "Home": "Leicester City",
+    "Score": "1–2",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 8,
+    "Day": "Tue",
+    "Date": "2023-04-04",
+    "Time": "20:00",
+    "Home": "Chelsea",
+    "Score": "0–0",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 7,
+    "Day": "Wed",
+    "Date": "2023-04-05",
+    "Time": "20:00",
+    "Home": "West Ham",
+    "Score": "1–5",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 25,
+    "Day": "Wed",
+    "Date": "2023-04-05",
+    "Time": "20:00",
+    "Home": "Manchester Utd",
+    "Score": "1–0",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "12:30",
+    "Home": "Manchester Utd",
+    "Score": "2–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "0–1",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "15:00",
+    "Home": "Aston Villa",
+    "Score": "2–0",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "0–1",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "1–2",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "1–0",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "15:00",
+    "Home": "Tottenham",
+    "Score": "2–1",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sat",
+    "Date": "2023-04-08",
+    "Time": "17:30",
+    "Home": "Southampton",
+    "Score": "1–4",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sun",
+    "Date": "2023-04-09",
+    "Time": "14:00",
+    "Home": "Leeds United",
+    "Score": "1–5",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 30,
+    "Day": "Sun",
+    "Date": "2023-04-09",
+    "Time": "16:30",
+    "Home": "Liverpool",
+    "Score": "2–2",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sat",
+    "Date": "2023-04-15",
+    "Time": "12:30",
+    "Home": "Aston Villa",
+    "Score": "3–0",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sat",
+    "Date": "2023-04-15",
+    "Time": "15:00",
+    "Home": "Chelsea",
+    "Score": "1–2",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sat",
+    "Date": "2023-04-15",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "0–2",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sat",
+    "Date": "2023-04-15",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "2–0",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sat",
+    "Date": "2023-04-15",
+    "Time": "15:00",
+    "Home": "Tottenham",
+    "Score": "2–3",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sat",
+    "Date": "2023-04-15",
+    "Time": "15:00",
+    "Home": "Everton",
+    "Score": "1–3",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sat",
+    "Date": "2023-04-15",
+    "Time": "17:30",
+    "Home": "Manchester City",
+    "Score": "3–1",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sun",
+    "Date": "2023-04-16",
+    "Time": "14:00",
+    "Home": "West Ham",
+    "Score": "2–2",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 31,
+    "Day": "Sun",
+    "Date": "2023-04-16",
+    "Time": "16:30",
+    "Home": "Nott'ham Forest",
+    "Score": "0–2",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 31,
+    "Day": "Mon",
+    "Date": "2023-04-17",
+    "Time": "20:00",
+    "Home": "Leeds United",
+    "Score": "1–6",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 32,
+    "Day": "Fri",
+    "Date": "2023-04-21",
+    "Time": "20:00",
+    "Home": "Arsenal",
+    "Score": "3–3",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 32,
+    "Day": "Sat",
+    "Date": "2023-04-22",
+    "Time": "12:30",
+    "Home": "Fulham",
+    "Score": "2–1",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 32,
+    "Day": "Sat",
+    "Date": "2023-04-22",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "0–0",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 32,
+    "Day": "Sat",
+    "Date": "2023-04-22",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "1–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 32,
+    "Day": "Sat",
+    "Date": "2023-04-22",
+    "Time": "15:00",
+    "Home": "Liverpool",
+    "Score": "3–2",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 32,
+    "Day": "Sat",
+    "Date": "2023-04-22",
+    "Time": "15:00",
+    "Home": "Leicester City",
+    "Score": "2–1",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 32,
+    "Day": "Sun",
+    "Date": "2023-04-23",
+    "Time": "14:00",
+    "Home": "Bournemouth",
+    "Score": "0–4",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 32,
+    "Day": "Sun",
+    "Date": "2023-04-23",
+    "Time": "14:00",
+    "Home": "Newcastle Utd",
+    "Score": "6–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 33,
+    "Day": "Tue",
+    "Date": "2023-04-25",
+    "Time": "19:30",
+    "Home": "Wolves",
+    "Score": "2–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 33,
+    "Day": "Tue",
+    "Date": "2023-04-25",
+    "Time": "19:45",
+    "Home": "Aston Villa",
+    "Score": "1–0",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 33,
+    "Day": "Tue",
+    "Date": "2023-04-25",
+    "Time": "20:00",
+    "Home": "Leeds United",
+    "Score": "1–1",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 33,
+    "Day": "Wed",
+    "Date": "2023-04-26",
+    "Time": "19:30",
+    "Home": "Nott'ham Forest",
+    "Score": "3–1",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 33,
+    "Day": "Wed",
+    "Date": "2023-04-26",
+    "Time": "19:45",
+    "Home": "Chelsea",
+    "Score": "0–2",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 33,
+    "Day": "Wed",
+    "Date": "2023-04-26",
+    "Time": "19:45",
+    "Home": "West Ham",
+    "Score": "1–2",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 33,
+    "Day": "Wed",
+    "Date": "2023-04-26",
+    "Time": "20:00",
+    "Home": "Manchester City",
+    "Score": "4–1",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 33,
+    "Day": "Thu",
+    "Date": "2023-04-27",
+    "Time": "19:45",
+    "Home": "Everton",
+    "Score": "1–4",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 33,
+    "Day": "Thu",
+    "Date": "2023-04-27",
+    "Time": "19:45",
+    "Home": "Southampton",
+    "Score": "0–1",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 33,
+    "Day": "Thu",
+    "Date": "2023-04-27",
+    "Time": "20:15",
+    "Home": "Tottenham",
+    "Score": "2–2",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sat",
+    "Date": "2023-04-29",
+    "Time": "12:30",
+    "Home": "Crystal Palace",
+    "Score": "4–3",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sat",
+    "Date": "2023-04-29",
+    "Time": "15:00",
+    "Home": "Brighton",
+    "Score": "6–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sat",
+    "Date": "2023-04-29",
+    "Time": "15:00",
+    "Home": "Brentford",
+    "Score": "2–1",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sun",
+    "Date": "2023-04-30",
+    "Time": "14:00",
+    "Home": "Manchester Utd",
+    "Score": "1–0",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sun",
+    "Date": "2023-04-30",
+    "Time": "14:00",
+    "Home": "Bournemouth",
+    "Score": "4–1",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sun",
+    "Date": "2023-04-30",
+    "Time": "14:00",
+    "Home": "Newcastle Utd",
+    "Score": "3–1",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sun",
+    "Date": "2023-04-30",
+    "Time": "14:00",
+    "Home": "Fulham",
+    "Score": "1–2",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 34,
+    "Day": "Sun",
+    "Date": "2023-04-30",
+    "Time": "16:30",
+    "Home": "Liverpool",
+    "Score": "4–3",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 34,
+    "Day": "Mon",
+    "Date": "2023-05-01",
+    "Time": "20:00",
+    "Home": "Leicester City",
+    "Score": "2–2",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 34,
+    "Day": "Tue",
+    "Date": "2023-05-02",
+    "Time": "20:00",
+    "Home": "Arsenal",
+    "Score": "3–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 28,
+    "Day": "Wed",
+    "Date": "2023-05-03",
+    "Time": "20:00",
+    "Home": "Liverpool",
+    "Score": "1–0",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 28,
+    "Day": "Wed",
+    "Date": "2023-05-03",
+    "Time": "20:00",
+    "Home": "Manchester City",
+    "Score": "3–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 28,
+    "Day": "Thu",
+    "Date": "2023-05-04",
+    "Time": "20:00",
+    "Home": "Brighton",
+    "Score": "1–0",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 35,
+    "Day": "Sat",
+    "Date": "2023-05-06",
+    "Time": "15:00",
+    "Home": "Tottenham",
+    "Score": "1–0",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 35,
+    "Day": "Sat",
+    "Date": "2023-05-06",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "1–0",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 35,
+    "Day": "Sat",
+    "Date": "2023-05-06",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "1–3",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 35,
+    "Day": "Sat",
+    "Date": "2023-05-06",
+    "Time": "15:00",
+    "Home": "Manchester City",
+    "Score": "2–1",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 35,
+    "Day": "Sat",
+    "Date": "2023-05-06",
+    "Time": "17:30",
+    "Home": "Liverpool",
+    "Score": "1–0",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 35,
+    "Day": "Sun",
+    "Date": "2023-05-07",
+    "Time": "16:30",
+    "Home": "Newcastle Utd",
+    "Score": "0–2",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 35,
+    "Day": "Sun",
+    "Date": "2023-05-07",
+    "Time": "19:00",
+    "Home": "West Ham",
+    "Score": "1–0",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 35,
+    "Day": "Mon",
+    "Date": "2023-05-08",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "5–3",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 35,
+    "Day": "Mon",
+    "Date": "2023-05-08",
+    "Time": "17:30",
+    "Home": "Brighton",
+    "Score": "1–5",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 35,
+    "Day": "Mon",
+    "Date": "2023-05-08",
+    "Time": "20:00",
+    "Home": "Nott'ham Forest",
+    "Score": "4–3",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sat",
+    "Date": "2023-05-13",
+    "Time": "12:30",
+    "Home": "Leeds United",
+    "Score": "2–2",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sat",
+    "Date": "2023-05-13",
+    "Time": "15:00",
+    "Home": "Aston Villa",
+    "Score": "2–1",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sat",
+    "Date": "2023-05-13",
+    "Time": "15:00",
+    "Home": "Chelsea",
+    "Score": "2–2",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sat",
+    "Date": "2023-05-13",
+    "Time": "15:00",
+    "Home": "Crystal Palace",
+    "Score": "2–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sat",
+    "Date": "2023-05-13",
+    "Time": "15:00",
+    "Home": "Southampton",
+    "Score": "0–2",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sat",
+    "Date": "2023-05-13",
+    "Time": "15:00",
+    "Home": "Manchester Utd",
+    "Score": "2–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sun",
+    "Date": "2023-05-14",
+    "Time": "14:00",
+    "Home": "Everton",
+    "Score": "0–3",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sun",
+    "Date": "2023-05-14",
+    "Time": "14:00",
+    "Home": "Brentford",
+    "Score": "2–0",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 36,
+    "Day": "Sun",
+    "Date": "2023-05-14",
+    "Time": "16:30",
+    "Home": "Arsenal",
+    "Score": "0–3",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 36,
+    "Day": "Mon",
+    "Date": "2023-05-15",
+    "Time": "20:00",
+    "Home": "Leicester City",
+    "Score": "0–3",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 25,
+    "Day": "Thu",
+    "Date": "2023-05-18",
+    "Time": "19:30",
+    "Home": "Newcastle Utd",
+    "Score": "4–1",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sat",
+    "Date": "2023-05-20",
+    "Time": "12:30",
+    "Home": "Tottenham",
+    "Score": "1–3",
+    "Away": "Brentford"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sat",
+    "Date": "2023-05-20",
+    "Time": "15:00",
+    "Home": "Liverpool",
+    "Score": "1–1",
+    "Away": "Aston Villa"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sat",
+    "Date": "2023-05-20",
+    "Time": "15:00",
+    "Home": "Fulham",
+    "Score": "2–2",
+    "Away": "Crystal Palace"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sat",
+    "Date": "2023-05-20",
+    "Time": "15:00",
+    "Home": "Bournemouth",
+    "Score": "0–1",
+    "Away": "Manchester Utd"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sat",
+    "Date": "2023-05-20",
+    "Time": "15:00",
+    "Home": "Wolves",
+    "Score": "1–1",
+    "Away": "Everton"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sat",
+    "Date": "2023-05-20",
+    "Time": "17:30",
+    "Home": "Nott'ham Forest",
+    "Score": "1–0",
+    "Away": "Arsenal"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sun",
+    "Date": "2023-05-21",
+    "Time": "13:30",
+    "Home": "West Ham",
+    "Score": "3–1",
+    "Away": "Leeds United"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sun",
+    "Date": "2023-05-21",
+    "Time": "14:00",
+    "Home": "Brighton",
+    "Score": "3–1",
+    "Away": "Southampton"
+  },
+  {
+    "Wk": 37,
+    "Day": "Sun",
+    "Date": "2023-05-21",
+    "Time": "16:00",
+    "Home": "Manchester City",
+    "Score": "1–0",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 37,
+    "Day": "Mon",
+    "Date": "2023-05-22",
+    "Time": "20:00",
+    "Home": "Newcastle Utd",
+    "Score": "0–0",
+    "Away": "Leicester City"
+  },
+  {
+    "Wk": 32,
+    "Day": "Wed",
+    "Date": "2023-05-24",
+    "Time": "20:00",
+    "Home": "Brighton",
+    "Score": "1–1",
+    "Away": "Manchester City"
+  },
+  {
+    "Wk": 32,
+    "Day": "Thu",
+    "Date": "2023-05-25",
+    "Time": "20:00",
+    "Home": "Manchester Utd",
+    "Score": "4–1",
+    "Away": "Chelsea"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Crystal Palace",
+    "Score": "1–1",
+    "Away": "Nott'ham Forest"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Chelsea",
+    "Score": "1–1",
+    "Away": "Newcastle Utd"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Manchester Utd",
+    "Score": "2–1",
+    "Away": "Fulham"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Arsenal",
+    "Score": "5–0",
+    "Away": "Wolves"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Southampton",
+    "Score": "4–4",
+    "Away": "Liverpool"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Everton",
+    "Score": "1–0",
+    "Away": "Bournemouth"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Leicester City",
+    "Score": "2–1",
+    "Away": "West Ham"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Aston Villa",
+    "Score": "2–1",
+    "Away": "Brighton"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Leeds United",
+    "Score": "1–4",
+    "Away": "Tottenham"
+  },
+  {
+    "Wk": 38,
+    "Day": "Sun",
+    "Date": "2023-05-28",
+    "Time": "16:30",
+    "Home": "Brentford",
+    "Score": "1–0",
+    "Away": "Manchester City"
+  }
+]

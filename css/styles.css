@@ -11469,17 +11469,26 @@ body.modal-open {
   overflow: hidden;
 }
 
-.modal-content {
+/* .modal-content {
   position: fixed;
-  top: -18%;
+  top: -30%;
   left: 30%;
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+} */
+.modal-content {
+  top: -20%;
+  left: 10%;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
 }
-
 .close {
   color: #aaa;
   float: right;

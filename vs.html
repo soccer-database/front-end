@@ -1,93 +1,89 @@
 <body class="bg-gray-100">
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
 
-<div class="bg-white p-6 mx-auto rounded-lg shadow-md overflow-hidden" style="width: 800px">
+    <div class="bg-white p-6 mx-auto rounded-lg shadow-md overflow-auto" style="width: 800px">
 
-    <div>
-        <!-- Players Cards -->
+        <div>
+            <!-- Players Cards -->
 
-        <div class="flex flex-wrap align-items-center justify-content-center -mx-2">
+            <div class="flex flex-wrap align-items-center justify-content-center -mx-2">
 
-            <!-- Player 1 -->
-            <!-- "w-1/2 p-2" -->
-            <div class="w-1/2 p-1">
-                <div class="rounded-t-lg p-4 text-white team-bg">
-                    <div class="flex items-center">
-                        <img src="https://placehold.co/64x64"
-                             class="rounded-full h-16 w-16" id="player-img">
-                        <div class="ml-4">
-                            <div class="font-bold" style="font-size: 20px;" id="player-team">team1</div>
-                            <div class="font-bold" id="player-name-get" style="font-size: 20px;">player</div>
-                            <div id="Position-get" style="font-size: 18px;">position</div>
+                <!-- Player 1 -->
+                <!-- "w-1/2 p-2" -->
+                <div class="w-1/2 p-1">
+                    <div class="rounded-t-lg p-4 text-white team-bg">
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/64x64" class="rounded-full h-16 w-16" id="player-img">
+                            <div class="ml-4">
+                                <div class="font-bold" style="font-size: 20px;" id="player-team">team1</div>
+                                <div class="font-bold" id="player-name-get" style="font-size: 20px;">player</div>
+                                <div id="Position-get" style="font-size: 18px;">position</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Player 2 -->
-            <div class="w-1/2 p-1">
-                <div class="rounded-t-lg p-4 text-white" id="vs-team-bg">
-                    <div class="flex items-center">
-                        <img src="https://placehold.co/64x64"
-                             class="rounded-full h-16 w-16" id="vs-player-img">
-                        <div class="ml-4">
+                <!-- Player 2 -->
+                <div class="w-1/2 p-1">
+                    <div class="rounded-t-lg p-4 text-white" id="vs-team-bg">
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/64x64" class="rounded-full h-16 w-16" id="vs-player-img">
+                            <div class="ml-4">
 
-                            <div>
-                                <select name="team" class="select font-bold" id="vs-team"
+                                <div>
+                                    <select name="team" class="select font-bold" id="vs-team"
                                         style="background-color: transparent; height: 24px; font-size: 20px; margin-bottom: 4px;">
-                                    <option value="Arsenal" data-color="#F00000">Arsenal</option>
-                                    <option value="Chelsea" data-color="#001489">Chelsea</option>
-                                    <option value="Liverpool" data-color="#DC0714">Liverpool</option>
-                                    <option value="Manchester City" data-color="#98C5E9">Manchester City</option>
-                                    <option value="Manchester Utd" data-color="#C70101">Manchester Utd</option>
-                                    <option value="Tottenham" data-color="#111836">Tottenham</option>
-                                </select>
-                            </div>
-                            <select class="select font-bold" id="vs-player"
+                                        <option value="Arsenal" data-color="#F00000">Arsenal</option>
+                                        <option value="Chelsea" data-color="#001489">Chelsea</option>
+                                        <option value="Liverpool" data-color="#DC0714">Liverpool</option>
+                                        <option value="Manchester City" data-color="#98C5E9">Manchester City</option>
+                                        <option value="Manchester Utd" data-color="#C70101">Manchester Utd</option>
+                                        <option value="Tottenham" data-color="#111836">Tottenham</option>
+                                    </select>
+                                </div>
+                                <select class="select font-bold" id="vs-player"
                                     style="background-color: transparent; font-size: 20px; margin-top:4px">player2</select>
-                            <div id="vs-Position-get" style="padding-left: 5px; font-size: 18px; margin-top: 1px;">
-                                position
+                                <div id="vs-Position-get" style="padding-left: 5px; font-size: 18px; margin-top: 1px;">
+                                    position
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="flex-column">
-                <div class="flex justify-content-center"><label for="select-stat"></label>
-                    <select id="select-stat" class="align-items-center font-bold" style="width: fit-content">
-                        <option value="standard">standard</option>
-                        <option value="pass">pass</option>
-                        <option value="depend">depend</option>
-                        <option value="shoot">shoot</option>
-                        <option value="GK">goalkeeping</option>
-                    </select>
-                </div>
-                <div class="flex">
-                    <div class="flex-column space-y-2 player-1-stat-plus text-red-800 text-sm p-4"
-
-                    >
+                <div class="flex-column">
+                    <div class="flex justify-content-center"><label for="select-stat"></label>
+                        <select id="select-stat" class="align-items-center font-bold" style="width: fit-content">
+                            <option value="standard">standard</option>
+                            <option value="pass">pass</option>
+                            <option value="depend">depend</option>
+                            <option value="shoot">shoot</option>
+                            <option value="GK">goalkeeping</option>
+                        </select>
                     </div>
-                    <div class="flex-column space-y-2 player-1-stat p-4 text-sm">
-                    </div>
-                    <div class="flex align-items-center justify-content-center bg-white rounded-b-lg p-4">
-                        <div class="text-gray-800 flex-column align-items-center font-bold text-xl mb-2">
-                            <div class="space-y-2 stat-box-of-type flex-column align-items-center">
-                                <div id="stat-list" class="align-items-center"></div>
+                    <div class="flex">
+                        <div class="flex-column space-y-2 player-1-stat-plus text-red-800 text-sm p-4">
+                        </div>
+                        <div class="flex-column space-y-2 player-1-stat p-4 text-sm">
+                        </div>
+                        <div class="flex align-items-center justify-content-center bg-white rounded-b-lg p-4">
+                            <div class="text-gray-800 flex-column align-items-center font-bold text-xl mb-2">
+                                <div class="space-y-2 stat-box-of-type flex-column align-items-center">
+                                    <div id="stat-list" class="align-items-center"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex-column space-y-2 player-2-stat p-4 text-sm">
-                    </div>
-                    <div class="flex-column space-y-2 player-2-stat-plus text-red-800 text-sm p-4">
+                        <div class="flex-column space-y-2 player-2-stat p-4 text-sm">
+                        </div>
+                        <div class="flex-column space-y-2 player-2-stat-plus text-red-800 text-sm p-4">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="flex justify-center items-center">
+            <button id="go-back">return</button>
+        </div>
     </div>
-    <div class="flex justify-center items-center">
-        <button id="go-back">return</button>
-    </div>
-</div>
 </body>
 
 <script type="text/javascript">
@@ -147,8 +143,7 @@
 
     function changestat() {
         fetch(
-            `https://stable-redbird-sunny.ngrok-free.app/players/${playerDivId}/records?type=${
-                statType ? statType : "standard"
+            `https://stable-redbird-sunny.ngrok-free.app/players/${playerDivId}/records?type=${statType ? statType : "standard"
             }`,
             {
                 headers: {
@@ -217,23 +212,23 @@
                     "ngrok-skip-browser-warning": "69420",
                 },
             }).then((data) => data.json()).then((data) => {
-            //console.log(data);
+                //console.log(data);
 
-            for (var i in data) {
-                vsPlayer = data[i];
-                //console.log(vsPlayer)
-                let option = `<option value="${vsPlayer.id}">${vsPlayer.name}</option>`;
-                $("#vs-player").append(option);
-            }
-            //console.log(data[0].id);
-            vsPlayerId = data[0].id;
-            // vsplayerImg=data[0].profileUrl;
-            // vsplayerTeam=data[0].team;
-            // console.log(vsplayerImg);
-            // console.log(vsplayerTeam);
-            vschangestat();
-            vsPlayerinfo();
-        })
+                for (var i in data) {
+                    vsPlayer = data[i];
+                    //console.log(vsPlayer)
+                    let option = `<option value="${vsPlayer.id}">${vsPlayer.name}</option>`;
+                    $("#vs-player").append(option);
+                }
+                //console.log(data[0].id);
+                vsPlayerId = data[0].id;
+                // vsplayerImg=data[0].profileUrl;
+                // vsplayerTeam=data[0].team;
+                // console.log(vsplayerImg);
+                // console.log(vsplayerTeam);
+                vschangestat();
+                vsPlayerinfo();
+            })
 
     }
 
@@ -288,8 +283,7 @@
             return;
         }
         fetch(
-            `https://stable-redbird-sunny.ngrok-free.app/players/${vsPlayerId}/records?type=${
-                statType ? statType : "standard"
+            `https://stable-redbird-sunny.ngrok-free.app/players/${vsPlayerId}/records?type=${statType ? statType : "standard"
             }`,
             {
                 headers: {
@@ -313,11 +307,11 @@
                         <div class="text-sm">${records[columnName]}</div>
                 `;
                     $(".player-2-stat").append(row2);
-                    let value= playerStat[columnName] - vsPlayerStat[columnName]
+                    let value = playerStat[columnName] - vsPlayerStat[columnName]
                     $(".player-1-stat-plus")
-                        .append(`<div class="text-sm" style="height: 1.25rem; min-width: 99px">${value > 0 ? `▲ `+ value.toFixed(2) : '            '}</div>`)
+                        .append(`<div class="text-sm" style="height: 1.25rem; min-width: 99px">${value > 0 ? `▲ ` + value.toFixed(2) : '            '}</div>`)
                     $(".player-2-stat-plus")
-                        .append(`<div class="text-sm" style="height: 1.25rem; min-width: 99px">${value < 0 ? `▲ `+ -value.toFixed(2) : '            '}</div>`)
+                        .append(`<div class="text-sm" style="height: 1.25rem; min-width: 99px">${value < 0 ? `▲ ` + -value.toFixed(2) : '            '}</div>`)
                 }
             });
     }
