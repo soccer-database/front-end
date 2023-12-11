@@ -340,8 +340,7 @@
                 </table>
             </div>
         </section>
-
-        <script>
+        <!-- <script>
             $(function () {
                 $.ajax({
                     url: "teamRecords.json",
@@ -378,6 +377,48 @@
             });
 
 
+        </script> -->
+        <script>
+                let team = "Arsenal";          
+                $(function () {
+                    fetch(
+            `https://stable-redbird-sunny.ngrok-free.app/squads/${team}/matches`,
+            {
+                headers: {
+                    "Content-Type": "application/json",
+                    "ngrok-skip-browser-warning": "69420",
+                },
+            }
+             ).then((data) => data.json())
+            .then((data) => {
+                console.log(data)
+                if (data.length > 0) {
+                            // Loop through each record in the data
+                            for (var i = 0; i < data.length; i++) {
+                                var record = data[i];
+                                console.log(record)
+                                // Check if the "Home" or "Away" contains the desired string
+                               // if (record["Home"].includes(`${team}`) || record["Away"].includes(`${team}`)) {
+                                    // Create a row
+                                    var row = $("<tr/>");
+
+                                    // Loop through each property in the record
+                                    $.each(record, function (key, value) {
+                                        // Create a cell and append it to the row
+                                        var cell = $("<td/>");
+                                        cell.text(value);
+                                        row.append(cell);
+                                    });
+
+                                    // Append the row to the table
+                                    $("#matchesTable").append(row);
+                                //}
+                            }
+                        }
+                    },                  
+
+            );   
+                })
         </script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
